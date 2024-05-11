@@ -220,7 +220,7 @@ h6 {
 --------------------------------------------------------------*/
 #hero {
   width: 100%;
-  height: auto;
+  height: 100vh;
   background: url("../img/bg.jpg") top center;
   background-size: cover;
 }
