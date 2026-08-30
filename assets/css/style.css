@@ -1595,7 +1595,7 @@ section {
             grid-column: 1 / -1;
             grid-row: 2;
         
-            text-align: left;
+            text-align: center;
           }
         
           .back-to-top {
