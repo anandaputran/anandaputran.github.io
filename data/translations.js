@@ -57,6 +57,16 @@ const translations = {
 
         projectsFooter:
             "More projects will be added as the portfolio grows.",
+        skillsLabel: "Skills & Tools",
+
+        skillsTitle:
+            "Tools and technologies I use to design, build, and automate digital solutions.",
+
+        skillsDesign: "Design",
+        skillsWebDevelopment: "Web Development",
+        skillsAppBackend: "App & Backend",
+        skillsAutomation: "AI & Automation",
+        skillsVersionControl: "Version Control",
     },
 
     id: {
@@ -117,5 +127,15 @@ const translations = {
 
         projectsFooter:
             "Proyek lainnya akan ditambahkan seiring berkembangnya portfolio.",
+        skillsLabel: "Keahlian & Tools",
+
+        skillsTitle:
+            "Tools dan teknologi yang saya gunakan untuk merancang, membangun, dan mengotomatisasi solusi digital.",
+
+        skillsDesign: "Desain",
+        skillsWebDevelopment: "Pengembangan Web",
+        skillsAppBackend: "Aplikasi & Backend",
+        skillsAutomation: "AI & Otomatisasi",
+        skillsVersionControl: "Version Control",
     }
 };
