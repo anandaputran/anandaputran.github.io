@@ -176,7 +176,7 @@ const translations = {
         projectCaseStudy: "Lihat Studi Kasus",
 
         projectsFooter:
-            "Proyek lainnya akan ditambahkan seiring berkembangnya portfolio.",
+            "Proyek lainnya akan ditambahkan seiring berkembangnya portofolio.",
         skillsLabel: "Keahlian & Alat",
 
         skillsTitle:
