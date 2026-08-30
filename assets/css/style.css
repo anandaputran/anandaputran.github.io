@@ -671,6 +671,7 @@ section {
   font-size: 0.8rem;
 }
 
+/* ===== Education ===== */
 .education {
   padding: 120px 0;
 }
@@ -1329,7 +1330,7 @@ section {
     opacity: 0.08;
   }
 
-  section {
+  .section {
     padding: 56px 0;
   }
 
