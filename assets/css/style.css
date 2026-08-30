@@ -560,16 +560,24 @@ section {
   display: flex;
   align-items: center;
   justify-content: center;
-  min-height: 480px;
+  min-height: 520px;
+  overflow: hidden;
+  border-radius: 14px;
 }
 
 .project-image {
-  width: 100%;
+  width: 108%;
+  max-width: none;
   height: auto;
   display: block;
   object-fit: contain;
   border-radius: 14px;
   box-shadow: 0 18px 50px rgba(0, 0, 0, 0.35);
+  transition: transform 0.4s ease;
+}
+
+.project-gallery:hover .project-image {
+  transform: scale(1.04);
 }
 
 /* ===== Skills ===== */
