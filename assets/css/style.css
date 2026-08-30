@@ -134,44 +134,42 @@ button {
 }
 
 .hero-eyebrow {
-  margin-bottom: 12px;
-
-  font-size: 1rem;
+  margin-bottom: 14px;
+  font-size: 0.95rem;
+  font-weight: 500;
+  letter-spacing: 0.02em;
   color: #9a9a9a;
 }
 
 .hero h1 {
   font-size: clamp(2.8rem, 6vw, 5.8rem);
-  line-height: 0.98;
-  letter-spacing: -0.04em;
-
+  line-height: 0.96;
+  letter-spacing: -0.035em;
+  font-weight: 700;
   margin-bottom: 24px;
 }
 
 .hero h2 {
   display: flex;
   flex-direction: column;
-  gap: 6px;
-
+  gap: 4px;
   margin-bottom: 24px;
-
   font-size: clamp(1.2rem, 2vw, 1.6rem);
   font-weight: 500;
 }
 
 .hero h2 span {
-  color: #9e9e9e;
+  color: #a5a5a5;
   font-size: 0.95em;
-  font-weight: 400;
+  font-weight: 500;
 }
 
 .hero-description {
   max-width: 620px;
-
   margin-bottom: 32px;
-
   color: #b6b6b6;
   font-size: 1.05rem;
+  line-height: 1.75;
 }
 
 .hero-actions {
