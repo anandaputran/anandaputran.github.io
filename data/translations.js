@@ -177,10 +177,10 @@ const translations = {
 
         projectsFooter:
             "Proyek lainnya akan ditambahkan seiring berkembangnya portofolio.",
-        skillsLabel: "Keahlian & Alat",
+        skillsLabel: "Keahlian & Teknologi",
 
         skillsTitle:
-            "Alat dan teknologi yang saya gunakan untuk merancang, membangun, dan mengotomatisasi solusi digital.",
+            "Keahlian dan teknologi yang saya gunakan untuk merancang, membangun, dan mengotomatisasi solusi digital.",
 
         skillsDesign: "Desain",
         skillsWebDevelopment: "Pengembangan Web",
