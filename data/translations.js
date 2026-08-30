@@ -78,6 +78,29 @@ const translations = {
 
         educationDescription:
             "Studied information systems with coursework in web and mobile application development, databases, system analysis and design, software engineering, and human-computer interaction.",
+        certificatesLabel: "Certifications & Achievements",
+
+        certificatesTitle:
+            "Credentials that support technical skills and continuous learning.",
+
+        certificateBnspType: "Professional Certification",
+        certificateFigmaType: "UI/UX Training",
+        certificateWebType: "Web Development Training",
+
+        additionalCredentialsLabel:
+            "Additional Credentials & Learning",
+
+        credentialToeflResult:
+            "Score 467 • 2025",
+
+        credentialSpeechTitle:
+            "English Speech Competition",
+
+        credentialSpeechResult:
+            "2nd Runner Up • 2023",
+
+        credentialDicodingStatus:
+            "Completed 2023",
     },
 
     id: {
@@ -159,5 +182,28 @@ const translations = {
 
         educationDescription:
             "Mempelajari sistem informasi dengan cakupan pengembangan aplikasi web dan mobile, basis data, analisis dan perancangan sistem, rekayasa perangkat lunak, serta interaksi manusia dan komputer.",
+        certificatesLabel: "Sertifikasi & Pencapaian",
+
+        certificatesTitle:
+            "Kredensial yang mendukung keterampilan teknis dan proses belajar berkelanjutan.",
+
+        certificateBnspType: "Sertifikasi Profesional",
+        certificateFigmaType: "Pelatihan UI/UX",
+        certificateWebType: "Pelatihan Pengembangan Web",
+
+        additionalCredentialsLabel:
+            "Kredensial & Pembelajaran Tambahan",
+
+        credentialToeflResult:
+            "Skor 467 • 2025",
+
+        credentialSpeechTitle:
+            "Kompetisi Pidato Bahasa Inggris",
+
+        credentialSpeechResult:
+            "Juara 3 • 2023",
+
+        credentialDicodingStatus:
+            "Selesai 2023",
     }
 };
