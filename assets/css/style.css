@@ -516,4 +516,21 @@ section {
       .hero-logo {
         opacity: 0.08;
       }
+
+      section {
+        padding: 56px 0;
+      }
+      
+      .section-heading {
+        margin-bottom: 32px;
+      }
+      
+      .about-meta {
+        grid-template-columns: 1fr;
+      }
+      
+      .about-meta-item {
+        padding: 16px;
+      }
+
   }
