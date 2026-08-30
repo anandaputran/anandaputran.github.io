@@ -28,6 +28,19 @@ const translations = {
         aboutFocus: "Focus",
         aboutStatus: "Status",
         aboutStatusValue: "Open to Opportunities",
+        experienceLabel: "Relevant Experience",
+        experienceTitle:
+            "Experience across web development and user-focused design.",
+
+        experienceWebRole: "Web Developer Intern",
+        experienceInternship: "Internship",
+        experienceWebDescription:
+            "Developed a chatbot assistant using FlowiseAI and integrated it into the existing company website.",
+
+        experienceMentorRole: "UI/UX Mentor",
+        experienceMentoring: "Mentoring",
+        experienceMentorDescription:
+            "Mentored participants on basic UI/UX concepts, Figma, and interactive design fundamentals.",
     },
 
     id: {
@@ -59,5 +72,18 @@ const translations = {
         aboutFocus: "Fokus",
         aboutStatus: "Status",
         aboutStatusValue: "Terbuka untuk Peluang",
+        experienceLabel: "Pengalaman Relevan",
+        experienceTitle:
+            "Pengalaman dalam pengembangan web dan desain yang berfokus pada pengguna.",
+
+        experienceWebRole: "Web Developer Intern",
+        experienceInternship: "Magang",
+        experienceWebDescription:
+            "Mengembangkan chatbot assistant menggunakan FlowiseAI dan mengintegrasikannya ke website perusahaan yang sudah ada.",
+
+        experienceMentorRole: "Mentor UI/UX",
+        experienceMentoring: "Mentoring",
+        experienceMentorDescription:
+            "Membimbing peserta dalam memahami konsep dasar UI/UX, Figma, dan fundamental desain interaktif.",
     }
 };
