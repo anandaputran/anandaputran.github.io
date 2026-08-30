@@ -21,3 +21,29 @@ navItems.forEach((item) => {
         menuToggle.textContent = "☰";
     });
 });
+
+// ===== Language Switcher =====
+
+const languageToggle = document.querySelector(".language-toggle");
+
+let currentLanguage = "en";
+
+function updateLanguage(language) {
+    const elements = document.querySelectorAll("[data-i18n]");
+
+    elements.forEach((element) => {
+        const key = element.dataset.i18n;
+
+        if (translations[language][key]) {
+            element.textContent = translations[language][key];
+        }
+    });
+
+    languageToggle.textContent = language === "en" ? "ID" : "EN";
+}
+
+languageToggle.addEventListener("click", () => {
+    currentLanguage = currentLanguage === "en" ? "id" : "en";
+
+    updateLanguage(currentLanguage);
+});
