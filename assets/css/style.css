@@ -284,14 +284,26 @@
       max-width: 100%;
     }
   
-    .hero-visual {
-      justify-content: flex-start;
-    }
-  
-    .hero-logo {
-      width: min(58vw, 260px);
-      opacity: 0.28;
-    }
+    .hero-content {
+        position: relative;
+        grid-template-columns: 1fr;
+        gap: 32px;
+      }
+      
+      .hero-visual {
+        position: absolute;
+        right: 0;
+        bottom: 10px;
+      
+        width: min(36vw, 260px);
+      
+        pointer-events: none;
+      }
+      
+      .hero-logo {
+        width: 100%;
+        opacity: 0.12;
+      }
   }
   
   
@@ -364,17 +376,12 @@
     }
   
     .hero-visual {
-      position: absolute;
-      right: -20px;
-      bottom: 48px;
-  
-      width: 180px;
-  
-      pointer-events: none;
-    }
-  
-    .hero-logo {
-      width: 100%;
-      opacity: 0.08;
-    }
+        right: -20px;
+        bottom: 48px;
+        width: 180px;
+      }
+      
+      .hero-logo {
+        opacity: 0.08;
+      }
   }
