@@ -745,10 +745,8 @@ section {
 .certificate-preview img {
   width: 100%;
   height: 100%;
-
   object-fit: contain;
-
-  border-radius: 10px;
+  border-radius: 6px;
 }
 
 .certificate-content {
