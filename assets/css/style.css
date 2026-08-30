@@ -433,6 +433,159 @@ section {
     line-height: 1.75;
   }
 
+  /* ===== Projects ===== */
+
+.projects {
+    border-top: 1px solid #1d1d1d;
+  }
+  
+  .featured-project {
+    display: grid;
+    grid-template-columns: minmax(0, 1.05fr) minmax(360px, 0.95fr);
+    gap: 56px;
+  
+    align-items: stretch;
+  
+    padding: 28px;
+  
+    border: 1px solid #222222;
+    border-radius: 22px;
+  
+    background: #101010;
+  }
+  
+  .project-visual {
+    min-height: 480px;
+  }
+  
+  .project-placeholder {
+    width: 100%;
+    height: 100%;
+  
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  
+    border: 1px solid #292929;
+    border-radius: 16px;
+  
+    background:
+      radial-gradient(
+        circle at center,
+        rgba(255, 255, 255, 0.08),
+        transparent 55%
+      ),
+      #0b0b0b;
+  
+    color: #555555;
+  
+    font-size: 0.85rem;
+    text-transform: uppercase;
+    letter-spacing: 0.12em;
+  }
+  
+  .project-content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+  
+  .project-number {
+    margin-bottom: 30px;
+  
+    color: #555555;
+    font-size: 0.85rem;
+  }
+  
+  .project-category {
+    margin-bottom: 10px;
+  
+    color: #8d8d8d;
+  
+    font-size: 0.82rem;
+    text-transform: uppercase;
+    letter-spacing: 0.1em;
+  }
+  
+  .project-content h3 {
+    margin-bottom: 16px;
+  
+    font-size: clamp(2rem, 4vw, 3.2rem);
+    line-height: 1.05;
+    letter-spacing: -0.03em;
+  }
+  
+  .project-flow {
+    margin-bottom: 22px;
+  
+    color: #d0d0d0;
+  
+    font-size: 1rem;
+    line-height: 1.7;
+  }
+  
+  .project-description {
+    max-width: 560px;
+  
+    margin-bottom: 28px;
+  
+    color: #a9a9a9;
+    line-height: 1.75;
+  }
+  
+  .project-tech {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 8px;
+  
+    margin-bottom: 32px;
+  }
+  
+  .project-tech span {
+    padding: 7px 10px;
+  
+    border: 1px solid #292929;
+    border-radius: 999px;
+  
+    color: #999999;
+    font-size: 0.78rem;
+  }
+  
+  .project-actions {
+    display: flex;
+    align-items: center;
+    gap: 16px;
+  }
+  
+  .project-link {
+    display: inline-flex;
+    align-items: center;
+    gap: 8px;
+  
+    padding-bottom: 4px;
+  
+    border-bottom: 1px solid #555555;
+  
+    color: #eeeeee;
+  
+    transition:
+      border-color 0.2s ease,
+      gap 0.2s ease;
+  }
+  
+  .project-link:hover {
+    gap: 12px;
+    border-color: #ffffff;
+  }
+  
+  .projects-footer {
+    margin-top: 24px;
+  
+    color: #666666;
+    font-size: 0.88rem;
+    text-align: right;
+  }
+
   /* ===== Responsive: Tablet & Mobile ===== */
 
 @media (max-width: 900px) {
