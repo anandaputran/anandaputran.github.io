@@ -102,6 +102,7 @@ button {
 .language-toggle {
   border: 0;
   background: transparent;
+  color: #c9c9c9;
   padding: 6px 4px;
 
   font-size: 0.82rem;
@@ -120,6 +121,7 @@ button {
 
   border: 1px solid #2d2d2d;
   background: transparent;
+  color: #c9c9c9;
   border-radius: 999px;
   padding: 8px 12px;
 
