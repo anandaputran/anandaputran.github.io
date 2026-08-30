@@ -561,47 +561,19 @@ section {
 /* ===== Project Gallery ===== */
 
 .project-gallery {
-  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
   min-height: 480px;
 }
 
 .project-image {
+  width: 100%;
+  height: auto;
   display: block;
-  object-fit: cover;
-
-  border: 1px solid #2a2a2a;
-  border-radius: 14px;
-
-  box-shadow: 0 18px 50px rgba(0, 0, 0, 0.35);
-}
-
-.project-image-main {
-  width: 82%;
-
-  position: absolute;
-  top: 20px;
-  left: 0;
-}
-
-.project-image-secondary {
-  width: 52%;
-
-  position: absolute;
-  left: 18px;
-  bottom: 12px;
-}
-
-.project-image-mobile {
-  width: 26%;
-  max-height: 360px;
-
-  position: absolute;
-  right: 0;
-  bottom: 0;
-
   object-fit: contain;
-
-  z-index: 2;
+  border-radius: 14px;
+  box-shadow: 0 18px 50px rgba(0, 0, 0, 0.35);
 }
 
 /* ===== Skills ===== */
