@@ -685,6 +685,59 @@ section {
     font-size: 0.8rem;
   }
 
+  .education {
+    padding: 120px 0;
+  }
+  
+  .education-card {
+    margin-top: 48px;
+    padding: 40px;
+  
+    display: grid;
+    grid-template-columns: 140px 1fr auto;
+    gap: 40px;
+    align-items: start;
+  
+    background: #0d0d0d;
+    border: 1px solid #1f1f1f;
+    border-radius: 18px;
+  }
+  
+  .education-year span,
+  .education-meta span {
+    color: #8a8a8a;
+    font-size: 0.85rem;
+  }
+  
+  .education-level {
+    margin-bottom: 10px;
+  
+    color: #8a8a8a;
+    font-size: 0.75rem;
+    text-transform: uppercase;
+    letter-spacing: 0.12em;
+  }
+  
+  .education-content h3 {
+    margin: 0 0 8px;
+  
+    font-size: 1.5rem;
+    font-weight: 600;
+  }
+  
+  .education-school {
+    margin-bottom: 22px;
+    color: #aaa;
+  }
+  
+  .education-description {
+    max-width: 650px;
+    margin: 0;
+  
+    color: #ccc;
+    line-height: 1.7;
+  }
+
   /* ===== Responsive: Tablet & Mobile ===== */
 
 @media (max-width: 900px) {
