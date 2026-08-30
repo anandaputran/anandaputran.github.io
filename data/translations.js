@@ -41,6 +41,22 @@ const translations = {
         experienceMentoring: "Mentoring",
         experienceMentorDescription:
             "Mentored participants on basic UI/UX concepts, Figma, and interactive design fundamentals.",
+        projectsLabel: "Selected Projects",
+        projectsTitle:
+            "Projects built around real problems and practical solutions.",
+
+        projectCategory: "Digital Ecosystem",
+
+        projectFlow:
+            "Company Profile → Chatbot Assistance → Nawng Academy Android App",
+
+        projectDescription:
+            "Developed Nawng Indonesia's digital ecosystem across web, chatbot assistance, and a standalone Android learning application.",
+
+        projectCaseStudy: "View Case Study",
+
+        projectsFooter:
+            "More projects will be added as the portfolio grows.",
     },
 
     id: {
@@ -85,5 +101,21 @@ const translations = {
         experienceMentoring: "Mentoring",
         experienceMentorDescription:
             "Membimbing peserta dalam memahami konsep dasar UI/UX, Figma, dan fundamental desain interaktif.",
+        projectsLabel: "Proyek Pilihan",
+        projectsTitle:
+            "Proyek yang dibangun dari permasalahan nyata dan solusi yang praktis.",
+
+        projectCategory: "Ekosistem Digital",
+
+        projectFlow:
+            "Company Profile → Chatbot Assistance → Aplikasi Android Nawng Academy",
+
+        projectDescription:
+            "Mengembangkan ekosistem digital Nawng Indonesia yang mencakup website, chatbot assistance, dan aplikasi pembelajaran Android mandiri.",
+
+        projectCaseStudy: "Lihat Studi Kasus",
+
+        projectsFooter:
+            "Proyek lainnya akan ditambahkan seiring berkembangnya portfolio.",
     }
 };
