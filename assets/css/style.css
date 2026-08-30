@@ -877,6 +877,80 @@ section {
     flex-shrink: 0;
     text-align: right;
   }
+  /* ===== Contact ===== */
+
+.contact {
+    padding: 140px 0;
+  
+    border-top: 1px solid #1d1d1d;
+  }
+  
+  .contact-wrapper {
+    display: grid;
+    grid-template-columns: minmax(0, 1.5fr) minmax(260px, 0.5fr);
+    gap: 80px;
+  
+    align-items: end;
+  }
+  
+  .contact-heading h2 {
+    max-width: 850px;
+  
+    margin-bottom: 24px;
+  
+    font-size: clamp(2.6rem, 5vw, 5rem);
+    font-weight: 500;
+    line-height: 1.05;
+    letter-spacing: -0.04em;
+  }
+  
+  .contact-description {
+    max-width: 620px;
+  
+    color: #8f8f8f;
+    line-height: 1.7;
+  }
+  
+  .contact-actions {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+  
+    gap: 24px;
+  }
+  
+  .contact-primary {
+    display: inline-flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 48px;
+  
+    width: 100%;
+  
+    padding: 18px 20px;
+  
+    border: 1px solid #303030;
+    border-radius: 999px;
+  
+    color: #f2f2f2;
+    text-decoration: none;
+  }
+  
+  .contact-primary span {
+    font-size: 1.1rem;
+  }
+  
+  .contact-links {
+    display: flex;
+    gap: 20px;
+  }
+  
+  .contact-links a {
+    color: #777777;
+  
+    font-size: 0.82rem;
+    text-decoration: none;
+  }
 
   /* ===== Responsive: Tablet & Mobile ===== */
 
