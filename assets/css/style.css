@@ -575,7 +575,7 @@ section {
   justify-content: center;
   min-height: 520px;
   overflow: hidden;
-  border-radius: 14px;
+  border-radius: 16px;
 }
 
 .project-image {
@@ -585,7 +585,6 @@ section {
   display: block;
   margin-inline: auto;
   object-fit: contain;
-  border-radius: 14px;
   box-shadow: 0 18px 50px rgba(0, 0, 0, 0.35);
   transition: transform 0.4s ease;
 }
