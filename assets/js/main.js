@@ -4,29 +4,28 @@ const menuToggle = document.querySelector(".menu-toggle");
 const navLinks = document.querySelector(".nav-links");
 const navItems = document.querySelectorAll(".nav-links a");
 
+function closeMobileMenu() {
+    navLinks.classList.remove("active");
+    menuToggle.setAttribute("aria-expanded", "false");
+    menuToggle.textContent = "☰";
+}
+
 menuToggle.addEventListener("click", () => {
     const isOpen = navLinks.classList.toggle("active");
 
     menuToggle.setAttribute("aria-expanded", isOpen);
-
     menuToggle.textContent = isOpen ? "✕" : "☰";
 });
 
 navItems.forEach((item) => {
-    item.addEventListener("click", () => {
-        navLinks.classList.remove("active");
-
-        menuToggle.setAttribute("aria-expanded", "false");
-
-        menuToggle.textContent = "☰";
-    });
+    item.addEventListener("click", closeMobileMenu);
 });
 
 // ===== Language Switcher =====
 
 const languageToggle = document.querySelector(".language-toggle");
 
-let currentLanguage = "en";
+let currentLanguage = localStorage.getItem("language") || "en";
 
 function updateLanguage(language) {
     const elements = document.querySelectorAll("[data-i18n]");
@@ -39,7 +38,11 @@ function updateLanguage(language) {
         }
     });
 
+    document.documentElement.lang = language;
+
     languageToggle.textContent = language === "en" ? "ID" : "EN";
+
+    localStorage.setItem("language", language);
 }
 
 languageToggle.addEventListener("click", () => {
@@ -47,3 +50,5 @@ languageToggle.addEventListener("click", () => {
 
     updateLanguage(currentLanguage);
 });
+
+updateLanguage(currentLanguage);
