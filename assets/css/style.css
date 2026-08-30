@@ -1371,30 +1371,15 @@ section {
   }
 
   .project-gallery {
-    display: grid;
-    grid-template-columns: 1fr;
-    grid-template-areas:
-      "main"
-      "secondary"
-      "mobile";
-
-    gap: 12px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
   }
 
-  .project-image-main,
-  .project-image-secondary,
-  .project-image-mobile {
-    width: 100%;
-  }
-
-  .project-image-mobile {
-    width: auto;
-    max-width: 100%;
-    max-height: 260px;
-
-    justify-self: center;
-
-    object-fit: contain;
+  .project-image {
+    width: 150%;
+    max-width: none;
+    margin-inline: auto;
   }
 
   .skills-grid {
