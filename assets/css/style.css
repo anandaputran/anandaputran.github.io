@@ -899,6 +899,18 @@ section {
         min-height: 200px;
         padding: 20px;
       }
+
+      .education {
+        padding: 96px 0;
+      }
+    
+      .education-card {
+        grid-template-columns: 100px 1fr;
+      }
+    
+      .education-meta {
+        grid-column: 2;
+      }
     }
       
       /* ===== Responsive: Small Mobile ===== */
@@ -1123,5 +1135,25 @@ section {
         .skill-tags span {
             padding: 6px 9px;
             font-size: 0.74rem;
+        }
+
+        .education {
+            padding: 80px 0;
+        }
+        
+        .education-card {
+            margin-top: 32px;
+            padding: 28px 20px;
+        
+            grid-template-columns: 1fr;
+            gap: 18px;
+        }
+        
+        .education-meta {
+            grid-column: auto;
+        }
+        
+        .education-content h3 {
+            font-size: 1.3rem;
         }
     }
