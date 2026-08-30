@@ -657,36 +657,40 @@ section {
 .education-year span,
 .education-meta span {
   color: #8a8a8a;
-  font-size: 0.85rem;
+  font-size: 0.8rem;
+  font-weight: 500;
+  letter-spacing: 0.02em;
 }
 
 .education-level {
   margin-bottom: 10px;
-
   color: #8a8a8a;
-  font-size: 0.75rem;
+  font-size: 0.74rem;
+  font-weight: 600;
   text-transform: uppercase;
-  letter-spacing: 0.12em;
+  letter-spacing: 0.14em;
 }
 
 .education-content h3 {
   margin: 0 0 8px;
-
   font-size: 1.5rem;
   font-weight: 600;
+  line-height: 1.25;
 }
 
 .education-school {
   margin-bottom: 22px;
   color: #aaa;
+  font-size: 0.95rem;
+  font-weight: 500;
 }
 
 .education-description {
   max-width: 650px;
   margin: 0;
-
   color: #ccc;
-  line-height: 1.7;
+  font-size: 1rem;
+  line-height: 1.75;
 }
 
 /* ===== Certifications ===== */
