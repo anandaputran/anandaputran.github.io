@@ -171,12 +171,12 @@ const translations = {
         // ===== Skills =====
         skillsLabel: "Keahlian & Teknologi",
         skillsTitle:
-            "Keahlian dan teknologi yang saya gunakan untuk merancang, membangun, dan mengotomatisasi solusi digital.",
+            "teknologi yang saya gunakan untuk merancang, membangun, dan mengotomatisasi solusi digital.",
         skillsDesign: "Desain",
         skillsWebDevelopment: "Pengembangan Web",
         skillsAppBackend: "Aplikasi & Backend",
         skillsAutomation: "AI & Otomatisasi",
-        skillsVersionControl: "Version Control",
+        skillsVersionControl: "Kontrol Versi",
 
         // ===== Education =====
         educationLabel: "Pendidikan",
