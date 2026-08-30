@@ -180,53 +180,45 @@ const translations = {
 
         // ===== Education =====
         educationLabel: "Pendidikan",
-
         educationTitle:
             "Landasan akademik dalam sistem informasi dan teknologi digital.",
-
         educationLevel: "Sarjana",
-
         educationMajor: "Sistem Informasi",
-
         educationDescription:
             "Mempelajari sistem informasi dengan cakupan pengembangan aplikasi web dan mobile, basis data, analisis dan perancangan sistem, rekayasa perangkat lunak, serta interaksi manusia dan komputer.",
-        certificatesLabel: "Sertifikasi & Pencapaian",
 
+        // ===== Certifications =====
+        certificatesLabel: "Sertifikasi & Pencapaian",
         certificatesTitle:
             "Kredensial yang mendukung keterampilan teknis dan proses belajar berkelanjutan.",
-
         certificateBnspType: "Sertifikasi Profesional",
         certificateFigmaType: "Pelatihan UI/UX",
         certificateWebType: "Pelatihan Pengembangan Web",
 
+        // ===== Additional Credentials =====
         additionalCredentialsLabel:
             "Kredensial & Pembelajaran Tambahan",
-
         credentialToeflResult:
             "Skor 467 • 2025",
-
         credentialSpeechResult:
             "Juara 3 • 2023",
-
         credentialDicodingStatus:
             "Selesai 2023",
-        contactLabel: "Kontak",
 
+        // ===== Contact =====
+        contactLabel: "Kontak",
         contactTitleLine1:
             "Punya proyek dalam pikiran",
-
         contactTitleLine2:
             "atau peluang untuk didiskusikan?",
-
         contactDescription:
             "Saya terbuka untuk peluang di bidang pengembangan web, produk digital, dan otomatisasi. Mari berdiskusi dan lihat apa yang bisa kita bangun bersama.",
-
         contactButton:
             "Hubungi Saya",
 
+        // ===== Footer =====
         footerRights:
             "Hak cipta dilindungi.",
-
         footerBackToTop:
             "Kembali ke atas",
     }
