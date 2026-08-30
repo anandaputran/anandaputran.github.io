@@ -319,10 +319,8 @@ section {
 
 .about-meta-item {
   padding: 18px 20px;
-
   border: 1px solid #242424;
-  border-radius: 14px;
-
+  border-radius: 16px;
   background: #111111;
 }
 
