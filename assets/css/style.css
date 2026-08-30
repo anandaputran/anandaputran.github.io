@@ -1235,6 +1235,7 @@ section {
 
   .hero-description {
     font-size: 0.98rem;
+    line-height: 1.7;
     margin-bottom: 26px;
   }
 
@@ -1251,7 +1252,10 @@ section {
 
   .hero-socials {
     gap: 16px;
-    font-size: 0.9rem;
+  }
+
+  .hero-socials a {
+    font-size: 0.86rem;
   }
 
   .hero-visual {
@@ -1270,6 +1274,15 @@ section {
 
   .section-heading {
     margin-bottom: 32px;
+  }
+
+  .section-heading h2 {
+    font-size: clamp(1.9rem, 9vw, 2.7rem);
+  }
+
+  .about-text {
+    font-size: 1rem;
+    line-height: 1.7;
   }
 
   .about-meta {
@@ -1308,6 +1321,7 @@ section {
 
   .experience-description {
     font-size: 0.95rem;
+    line-height: 1.7;
   }
 
   .featured-project {
@@ -1316,7 +1330,20 @@ section {
   }
 
   .project-visual {
-    min-height: 220px;
+    min-height: auto;
+  }
+
+  .project-gallery {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+  }
+
+  .project-image {
+    width: 150%;
+    max-width: none;
+    margin-inline: auto;
   }
 
   .project-content {
@@ -1333,10 +1360,12 @@ section {
 
   .project-flow {
     font-size: 0.92rem;
+    line-height: 1.65;
   }
 
   .project-description {
     font-size: 0.95rem;
+    line-height: 1.7;
   }
 
   .project-tech {
@@ -1352,18 +1381,7 @@ section {
   .projects-footer {
     margin-top: 18px;
     font-size: 0.8rem;
-  }
-
-  .project-gallery {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-  }
-
-  .project-image {
-    width: 150%;
-    max-width: none;
-    margin-inline: auto;
+    text-align: left;
   }
 
   .skills-grid {
@@ -1410,6 +1428,11 @@ section {
     font-size: 1.3rem;
   }
 
+  .education-description {
+    font-size: 0.95rem;
+    line-height: 1.7;
+  }
+
   .certificates-grid {
     grid-template-columns: 1fr;
     gap: 12px;
@@ -1424,6 +1447,10 @@ section {
     padding: 18px;
   }
 
+  .certificate-content h3 {
+    font-size: 1.1rem;
+  }
+
   .additional-credentials {
     margin-top: 32px;
   }
@@ -1432,7 +1459,6 @@ section {
     flex-direction: column;
     align-items: flex-start;
     gap: 8px;
-
     padding: 18px 0;
   }
 
@@ -1450,18 +1476,18 @@ section {
 
   .contact-heading h2 {
     margin-bottom: 20px;
-
     font-size: clamp(2.2rem, 11vw, 3.4rem);
+    line-height: 1.03;
   }
 
   .contact-description {
     font-size: 0.9rem;
+    line-height: 1.7;
   }
 
   .contact-actions {
     width: 100%;
     max-width: none;
-
     gap: 20px;
   }
 
@@ -1469,10 +1495,17 @@ section {
     padding: 16px 18px;
   }
 
+  .contact-primary span {
+    font-size: 0.95rem;
+  }
+
   .contact-links {
     width: 100%;
-
     justify-content: space-between;
+  }
+
+  .contact-links a {
+    font-size: 0.8rem;
   }
 
   .footer {
@@ -1489,7 +1522,6 @@ section {
   .footer-copy {
     grid-column: 1 / -1;
     grid-row: 2;
-
     text-align: center;
   }
 
