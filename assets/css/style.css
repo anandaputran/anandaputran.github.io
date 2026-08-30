@@ -1113,45 +1113,15 @@ section {
 
   .project-gallery {
     min-height: auto;
-
-    display: grid;
-    grid-template-columns: minmax(0, 1fr) auto;
-    grid-template-areas:
-      "main main"
-      "secondary mobile";
-
-    gap: 14px;
-    align-items: stretch;
+    display: flex;
+    align-items: center;
+    justify-content: center;
   }
 
   .project-image {
-    position: static;
-  }
-
-  .project-image-main {
-    grid-area: main;
-    width: 100%;
-  }
-
-  .project-image-secondary {
-    grid-area: secondary;
-
-    width: 100%;
-    height: 280px;
-
-    object-fit: cover;
-  }
-
-  .project-image-mobile {
-    grid-area: mobile;
-
-    width: auto;
-    height: 280px;
-    max-width: 100%;
-
-    justify-self: end;
-
-    object-fit: contain;
+    width: 150%;
+    max-width: none;
+    margin-inline: auto;
   }
 
   .skills-grid {
