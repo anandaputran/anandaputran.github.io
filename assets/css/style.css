@@ -632,6 +632,59 @@ section {
     z-index: 2;
   }
 
+  /* ===== Skills ===== */
+
+.skills {
+    border-top: 1px solid #1d1d1d;
+  }
+  
+  .skills-grid {
+    display: grid;
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    gap: 18px;
+  }
+  
+  .skill-group {
+    min-height: 220px;
+  
+    padding: 24px;
+  
+    border: 1px solid #242424;
+    border-radius: 18px;
+  
+    background: #101010;
+  }
+  
+  .skill-index {
+    margin-bottom: 32px;
+  
+    color: #555555;
+    font-size: 0.78rem;
+  }
+  
+  .skill-group h3 {
+    margin-bottom: 20px;
+  
+    font-size: 1.25rem;
+    font-weight: 600;
+  }
+  
+  .skill-tags {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 8px;
+  }
+  
+  .skill-tags span {
+    padding: 7px 10px;
+  
+    border: 1px solid #2b2b2b;
+    border-radius: 999px;
+  
+    color: #a0a0a0;
+    font-size: 0.8rem;
+  }
+
   /* ===== Responsive: Tablet & Mobile ===== */
 
 @media (max-width: 900px) {
@@ -794,251 +847,248 @@ section {
         text-align: left;
       }
 
-      /* ===== Project Gallery: Tablet ===== */
-
-.project-gallery {
-    min-height: auto;
-  
-    display: grid;
-    grid-template-columns: minmax(0, 1fr) auto;
-    grid-template-areas:
-      "main main"
-      "secondary mobile";
-  
-    gap: 14px;
-    align-items: stretch;
-  }
-  
-  .project-image {
-    position: static;
-  }
-  
-  .project-image-main {
-    grid-area: main;
-    width: 100%;
-  }
-  
-  .project-image-secondary {
-    grid-area: secondary;
-  
-    width: 100%;
-    height: 280px;
-  
-    object-fit: cover;
-  }
-  
-  .project-image-mobile {
-    grid-area: mobile;
-  
-    width: auto;
-    height: 280px;
-    max-width: 100%;
-  
-    justify-self: end;
-  
-    object-fit: contain;
-  }
-
-  }
-  
-  
-  /* ===== Responsive: Small Mobile ===== */
-  
-  @media (max-width: 600px) {
-    .navbar {
-      min-height: 68px;
-      gap: 16px;
-    }
-  
-    .brand-logo {
-      width: 40px;
-      height: 40px;
-    }
-  
-    .nav-actions {
-      gap: 8px;
-    }
-  
-    .language-toggle,
-    .menu-toggle {
-      padding: 7px 10px;
-      border-radius: 9px;
-    }
-  
-    .hero {
-      padding: 42px 0 32px;
-    }
-  
-    .hero-content {
-      position: relative;
-      gap: 24px;
-    }
-  
-    .hero-eyebrow {
-      font-size: 0.9rem;
-    }
-  
-    .hero h1 {
-      font-size: clamp(2.5rem, 14vw, 4rem);
-      line-height: 0.95;
-      margin-bottom: 20px;
-    }
-  
-    .hero h2 {
-      font-size: 1.08rem;
-      margin-bottom: 20px;
-    }
-  
-    .hero-description {
-      font-size: 0.98rem;
-      margin-bottom: 26px;
-    }
-  
-    .hero-actions {
-      display: grid;
-      grid-template-columns: 1fr;
-      gap: 10px;
-      margin-bottom: 22px;
-    }
-  
-    .btn {
-      width: 100%;
-    }
-  
-    .hero-socials {
-      gap: 16px;
-      font-size: 0.9rem;
-    }
-  
-    .hero-visual {
-        right: -20px;
-        bottom: 48px;
-        width: 180px;
+      .project-gallery {
+        min-height: auto;
+      
+        display: grid;
+        grid-template-columns: minmax(0, 1fr) auto;
+        grid-template-areas:
+          "main main"
+          "secondary mobile";
+      
+        gap: 14px;
+        align-items: stretch;
       }
       
-      .hero-logo {
-        opacity: 0.08;
-      }
-
-      section {
-        padding: 56px 0;
+      .project-image {
+        position: static;
       }
       
-      .section-heading {
-        margin-bottom: 32px;
+      .project-image-main {
+        grid-area: main;
+        width: 100%;
       }
       
-      .about-meta {
-        grid-template-columns: 1fr;
+      .project-image-secondary {
+        grid-area: secondary;
+      
+        width: 100%;
+        height: 280px;
+      
+        object-fit: cover;
       }
       
-      .about-meta-item {
-        padding: 16px;
-      }
-
-      .experience-item {
-        padding-left: 34px;
-        padding-bottom: 36px;
-      }
+      .project-image-mobile {
+        grid-area: mobile;
       
-      .experience-list::before {
-        left: 6px;
-      }
-      
-      .experience-date::after {
-        left: -32px;
-      }
-      
-      .experience-header {
-        flex-direction: column;
-        gap: 10px;
-      }
-      
-      .experience-type {
-        align-self: flex-start;
-      }
-      
-      .experience-header h3 {
-        font-size: 1.15rem;
-      }
-      
-      .experience-description {
-        font-size: 0.95rem;
-      }
-
-      .featured-project {
-        padding: 14px;
-        border-radius: 18px;
-      }
-      
-      .project-visual {
-        min-height: 220px;
-      }
-      
-      .project-placeholder {
-        border-radius: 12px;
-      }
-      
-      .project-content {
-        padding: 8px 4px 4px;
-      }
-      
-      .project-number {
-        margin-bottom: 16px;
-      }
-      
-      .project-content h3 {
-        font-size: 1.8rem;
-      }
-      
-      .project-flow {
-        font-size: 0.92rem;
-      }
-      
-      .project-description {
-        font-size: 0.95rem;
-      }
-      
-      .project-tech {
-        gap: 6px;
-        margin-bottom: 26px;
-      }
-      
-      .project-tech span {
-        padding: 6px 9px;
-        font-size: 0.72rem;
-      }
-      
-      .projects-footer {
-        margin-top: 18px;
-        font-size: 0.8rem;
-      }
-
-    .project-gallery {
-    display: grid;
-    grid-template-columns: 1fr;
-    grid-template-areas:
-    "main"
-    "secondary"
-    "mobile";
-
-    gap: 12px;
-    }
-
-    .project-image-main,
-    .project-image-secondary,
-    .project-image-mobile {
-    width: 100%;
-    position: static;
-    }
-
-    .project-image-mobile {
         width: auto;
+        height: 280px;
         max-width: 100%;
-        max-height: 260px;
       
-        justify-self: center;
+        justify-self: end;
       
         object-fit: contain;
+      }
+    
     }
-}
+      
+      /* ===== Responsive: Small Mobile ===== */
+      
+      @media (max-width: 600px) {
+        .navbar {
+          min-height: 68px;
+          gap: 16px;
+        }
+      
+        .brand-logo {
+          width: 40px;
+          height: 40px;
+        }
+      
+        .nav-actions {
+          gap: 8px;
+        }
+      
+        .language-toggle,
+        .menu-toggle {
+          padding: 7px 10px;
+          border-radius: 9px;
+        }
+      
+        .hero {
+          padding: 42px 0 32px;
+        }
+      
+        .hero-content {
+          position: relative;
+          gap: 24px;
+        }
+      
+        .hero-eyebrow {
+          font-size: 0.9rem;
+        }
+      
+        .hero h1 {
+          font-size: clamp(2.5rem, 14vw, 4rem);
+          line-height: 0.95;
+          margin-bottom: 20px;
+        }
+      
+        .hero h2 {
+          font-size: 1.08rem;
+          margin-bottom: 20px;
+        }
+      
+        .hero-description {
+          font-size: 0.98rem;
+          margin-bottom: 26px;
+        }
+      
+        .hero-actions {
+          display: grid;
+          grid-template-columns: 1fr;
+          gap: 10px;
+          margin-bottom: 22px;
+        }
+      
+        .btn {
+          width: 100%;
+        }
+      
+        .hero-socials {
+          gap: 16px;
+          font-size: 0.9rem;
+        }
+      
+        .hero-visual {
+            right: -20px;
+            bottom: 48px;
+            width: 180px;
+          }
+          
+          .hero-logo {
+            opacity: 0.08;
+          }
+    
+          section {
+            padding: 56px 0;
+          }
+          
+          .section-heading {
+            margin-bottom: 32px;
+          }
+          
+          .about-meta {
+            grid-template-columns: 1fr;
+          }
+          
+          .about-meta-item {
+            padding: 16px;
+          }
+    
+          .experience-item {
+            padding-left: 34px;
+            padding-bottom: 36px;
+          }
+          
+          .experience-list::before {
+            left: 6px;
+          }
+          
+          .experience-date::after {
+            left: -32px;
+          }
+          
+          .experience-header {
+            flex-direction: column;
+            gap: 10px;
+          }
+          
+          .experience-type {
+            align-self: flex-start;
+          }
+          
+          .experience-header h3 {
+            font-size: 1.15rem;
+          }
+          
+          .experience-description {
+            font-size: 0.95rem;
+          }
+    
+          .featured-project {
+            padding: 14px;
+            border-radius: 18px;
+          }
+          
+          .project-visual {
+            min-height: 220px;
+          }
+          
+          .project-placeholder {
+            border-radius: 12px;
+          }
+          
+          .project-content {
+            padding: 8px 4px 4px;
+          }
+          
+          .project-number {
+            margin-bottom: 16px;
+          }
+          
+          .project-content h3 {
+            font-size: 1.8rem;
+          }
+          
+          .project-flow {
+            font-size: 0.92rem;
+          }
+          
+          .project-description {
+            font-size: 0.95rem;
+          }
+          
+          .project-tech {
+            gap: 6px;
+            margin-bottom: 26px;
+          }
+          
+          .project-tech span {
+            padding: 6px 9px;
+            font-size: 0.72rem;
+          }
+          
+          .projects-footer {
+            margin-top: 18px;
+            font-size: 0.8rem;
+          }
+    
+        .project-gallery {
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-template-areas:
+        "main"
+        "secondary"
+        "mobile";
+    
+        gap: 12px;
+        }
+    
+        .project-image-main,
+        .project-image-secondary,
+        .project-image-mobile {
+        width: 100%;
+        position: static;
+        }
+    
+        .project-image-mobile {
+            width: auto;
+            max-width: 100%;
+            max-height: 260px;
+          
+            justify-self: center;
+          
+            object-fit: contain;
+        }
+    }
