@@ -68,6 +68,7 @@
     width: 48px;
     height: 48px;
     object-fit: contain;
+    opacity: 0.88;
   }
   
   .nav-links {
@@ -450,8 +451,6 @@ section {
     .brand-logo {
       width: 40px;
       height: 40px;
-      object-fit: contain;
-  opacity: 0.88;
     }
   
     .nav-actions {
