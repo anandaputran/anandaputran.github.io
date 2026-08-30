@@ -1007,7 +1007,6 @@ section {
   .nav-links a {
     display: block;
     padding: 12px 14px;
-
     border-radius: 9px;
   }
 
@@ -1026,8 +1025,16 @@ section {
     padding: 56px 0 40px;
   }
 
+  .hero-content {
+    position: relative;
+    grid-template-columns: 1fr;
+    gap: 32px;
+  }
+
   .hero-text {
     max-width: 100%;
+    position: relative;
+    z-index: 2;
   }
 
   .hero h1 {
@@ -1038,12 +1045,6 @@ section {
     max-width: 100%;
   }
 
-  .hero-content {
-    position: relative;
-    grid-template-columns: 1fr;
-    gap: 32px;
-  }
-
   .hero-visual {
     position: absolute;
     right: 0;
@@ -1052,6 +1053,7 @@ section {
     width: min(36vw, 260px);
 
     pointer-events: none;
+    z-index: 1;
   }
 
   .hero-logo {
@@ -1101,12 +1103,27 @@ section {
   .featured-project {
     grid-template-columns: 1fr;
     gap: 32px;
-
     padding: 22px;
   }
 
   .project-visual {
-    min-height: 360px;
+    min-height: auto;
+  }
+
+  .project-gallery {
+    min-height: auto;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    overflow: hidden;
+  }
+
+  .project-image {
+    width: 150%;
+    max-width: none;
+    margin-inline: auto;
   }
 
   .project-content {
@@ -1119,19 +1136,6 @@ section {
 
   .projects-footer {
     text-align: left;
-  }
-
-  .project-gallery {
-    min-height: auto;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-  }
-
-  .project-image {
-    width: 150%;
-    max-width: none;
-    margin-inline: auto;
   }
 
   .skills-grid {
