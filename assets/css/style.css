@@ -249,22 +249,23 @@ section {
 
 .section-heading {
   max-width: 720px;
-  margin-bottom: 48px;
+  margin-bottom: 52px;
 }
 
 .section-label {
-  margin-bottom: 12px;
-
+  margin-bottom: 14px;
   color: #8f8f8f;
-  font-size: 0.9rem;
+  font-size: 0.82rem;
+  font-weight: 600;
   text-transform: uppercase;
-  letter-spacing: 0.12em;
+  letter-spacing: 0.16em;
 }
 
 .section-heading h2 {
   font-size: clamp(2rem, 4vw, 3.4rem);
-  line-height: 1.1;
-  letter-spacing: -0.03em;
+  line-height: 1.08;
+  letter-spacing: -0.025em;
+  font-weight: 600;
 }
 
 /* ===== About ===== */
