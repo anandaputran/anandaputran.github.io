@@ -1206,10 +1206,14 @@ section {
     gap: 8px;
   }
 
-  .language-toggle,
+  .language-toggle {
+    padding: 6px 4px;
+    border-radius: 0;
+  }
+
   .menu-toggle {
     padding: 7px 10px;
-    border-radius: 9px;
+    border-radius: 999px;
   }
 
   .hero {
