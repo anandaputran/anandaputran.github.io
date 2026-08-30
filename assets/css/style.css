@@ -1268,7 +1268,6 @@ section {
   }
 
   .hero-content {
-    position: relative;
     gap: 24px;
   }
 
@@ -1427,7 +1426,6 @@ section {
   .project-image-secondary,
   .project-image-mobile {
     width: 100%;
-    position: static;
   }
 
   .project-image-mobile {
