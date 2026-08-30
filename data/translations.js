@@ -93,9 +93,6 @@ const translations = {
         credentialToeflResult:
             "Score 467 • 2025",
 
-        credentialSpeechTitle:
-            "English Speech Competition",
-
         credentialSpeechResult:
             "2nd Runner Up • 2023",
 
@@ -196,9 +193,6 @@ const translations = {
 
         credentialToeflResult:
             "Skor 467 • 2025",
-
-        credentialSpeechTitle:
-            "Kompetisi Pidato Bahasa Inggris",
 
         credentialSpeechResult:
             "Juara 3 • 2023",
