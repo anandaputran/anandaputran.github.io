@@ -1263,6 +1263,13 @@ section {
         max-width: 420px;
       }
 
+      .footer-wrapper {
+        display: grid;
+        grid-template-columns: 1fr auto 1fr;
+        align-items: center;
+        gap: 24px;
+      }
+
     }
       
       /* ===== Responsive: Small Mobile ===== */
