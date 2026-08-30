@@ -283,12 +283,11 @@ section {
 
 .about-text {
   max-width: 720px;
-
   display: grid;
   gap: 20px;
-
   color: #b9b9b9;
   font-size: 1.08rem;
+  line-height: 1.75;
 }
 
 .about-meta {
@@ -307,15 +306,17 @@ section {
 
 .meta-label {
   display: block;
-  margin-bottom: 4px;
-
+  margin-bottom: 5px;
   color: #777777;
-  font-size: 0.82rem;
+  font-size: 0.78rem;
+  font-weight: 500;
+  letter-spacing: 0.02em;
 }
 
 .about-meta-item strong {
-  font-size: 0.98rem;
+  font-size: 1rem;
   font-weight: 500;
+  line-height: 1.4;
 }
 
 /* ===== Experience ===== */
