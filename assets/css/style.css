@@ -817,7 +817,7 @@ section {
       
       .project-image-secondary {
         width: 100%;
-        min-height: 220px;
+        height: 260px;
       
         object-fit: contain;
         background: #0b0b0b;
