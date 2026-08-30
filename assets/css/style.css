@@ -443,16 +443,12 @@ section {
 
 .featured-project {
   display: grid;
-  grid-template-columns: minmax(0, 1.05fr) minmax(360px, 0.95fr);
-  gap: 56px;
-
+  grid-template-columns: minmax(0, 1.25fr) minmax(340px, 0.75fr);
+  gap: 48px;
   align-items: stretch;
-
   padding: 28px;
-
   border: 1px solid #222222;
   border-radius: 22px;
-
   background: #101010;
 }
 
