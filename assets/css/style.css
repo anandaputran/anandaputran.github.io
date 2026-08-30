@@ -546,6 +546,32 @@ section {
         grid-template-columns: repeat(2, minmax(0, 1fr));
       }
 
+      .experience-list::before {
+        left: 16px;
+      }
+      
+      .experience-item {
+        grid-template-columns: 1fr;
+        gap: 10px;
+      
+        padding-left: 48px;
+        padding-bottom: 42px;
+      }
+      
+      .experience-date {
+        padding-top: 0;
+      }
+      
+      .experience-date::after {
+        top: 7px;
+        left: -36px;
+        right: auto;
+      }
+      
+      .experience-header {
+        gap: 16px;
+      }
+
   }
   
   
@@ -641,6 +667,36 @@ section {
       
       .about-meta-item {
         padding: 16px;
+      }
+
+      .experience-item {
+        padding-left: 34px;
+        padding-bottom: 36px;
+      }
+      
+      .experience-list::before {
+        left: 6px;
+      }
+      
+      .experience-date::after {
+        left: -32px;
+      }
+      
+      .experience-header {
+        flex-direction: column;
+        gap: 10px;
+      }
+      
+      .experience-type {
+        align-self: flex-start;
+      }
+      
+      .experience-header h3 {
+        font-size: 1.15rem;
+      }
+      
+      .experience-description {
+        font-size: 0.95rem;
       }
 
   }
