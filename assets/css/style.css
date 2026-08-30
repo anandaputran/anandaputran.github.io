@@ -1117,6 +1117,19 @@ section {
       .certificate-content {
         padding: 20px;
       }
+
+      .contact {
+        padding: 110px 0;
+      }
+      
+      .contact-wrapper {
+        grid-template-columns: 1fr;
+        gap: 48px;
+      }
+      
+      .contact-actions {
+        max-width: 420px;
+      }
     }
       
       /* ===== Responsive: Small Mobile ===== */
@@ -1391,5 +1404,40 @@ section {
         
           .credential-item > span {
             text-align: left;
+          }
+
+          .contact {
+            padding: 84px 0;
+          }
+          
+          .contact-wrapper {
+            gap: 36px;
+          }
+          
+          .contact-heading h2 {
+            margin-bottom: 20px;
+          
+            font-size: clamp(2.2rem, 11vw, 3.4rem);
+          }
+          
+          .contact-description {
+            font-size: 0.9rem;
+          }
+          
+          .contact-actions {
+            width: 100%;
+            max-width: none;
+          
+            gap: 20px;
+          }
+          
+          .contact-primary {
+            padding: 16px 18px;
+          }
+          
+          .contact-links {
+            width: 100%;
+          
+            justify-content: space-between;
           }
     }
