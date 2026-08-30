@@ -832,6 +832,7 @@ section {
   flex-shrink: 0;
   text-align: right;
 }
+
 /* ===== Contact ===== */
 
 .contact {
@@ -850,13 +851,11 @@ section {
 
 .contact-heading h2 {
   max-width: 850px;
-
   margin-bottom: 24px;
-
   font-size: clamp(2.6rem, 5vw, 5rem);
-  font-weight: 500;
-  line-height: 1.05;
-  letter-spacing: -0.04em;
+  font-weight: 600;
+  line-height: 1.02;
+  letter-spacing: -0.035em;
 }
 
 .contact-description {
