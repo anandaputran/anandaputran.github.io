@@ -570,6 +570,7 @@ section {
   max-width: none;
   height: auto;
   display: block;
+  margin-inline: auto;
   object-fit: contain;
   border-radius: 14px;
   box-shadow: 0 18px 50px rgba(0, 0, 0, 0.35);
