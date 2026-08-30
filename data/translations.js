@@ -67,6 +67,17 @@ const translations = {
         skillsAppBackend: "App & Backend",
         skillsAutomation: "AI & Automation",
         skillsVersionControl: "Version Control",
+        educationLabel: "Education",
+
+        educationTitle:
+            "Academic foundation in information systems and digital technology.",
+
+        educationLevel: "Bachelor's Degree",
+
+        educationMajor: "Information Systems",
+
+        educationDescription:
+            "Studied information systems with coursework in web and mobile application development, databases, system analysis and design, software engineering, and human-computer interaction.",
     },
 
     id: {
@@ -137,5 +148,16 @@ const translations = {
         skillsAppBackend: "Aplikasi & Backend",
         skillsAutomation: "AI & Otomatisasi",
         skillsVersionControl: "Version Control",
+        educationLabel: "Pendidikan",
+
+        educationTitle:
+            "Landasan akademik dalam sistem informasi dan teknologi digital.",
+
+        educationLevel: "Sarjana",
+
+        educationMajor: "Sistem Informasi",
+
+        educationDescription:
+            "Mempelajari sistem informasi dengan cakupan pengembangan aplikasi web dan mobile, basis data, analisis dan perancangan sistem, rekayasa perangkat lunak, serta interaksi manusia dan komputer.",
     }
 };
