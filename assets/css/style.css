@@ -184,13 +184,14 @@ button {
   display: inline-flex;
   align-items: center;
   justify-content: center;
-
   min-height: 46px;
   padding: 0 20px;
-
-  border-radius: 12px;
-
+  border-radius: 999px;
   transition: transform 0.2s ease, background 0.2s ease, border-color 0.2s ease;
+  -webkit-border-radius: 999px;
+  -moz-border-radius: 999px;
+  -ms-border-radius: 999px;
+  -o-border-radius: 999px;
 }
 
 .btn:hover {
