@@ -27,7 +27,7 @@ const translations = {
         aboutBackgroundValue: "Information Systems",
         aboutFocus: "Focus",
         aboutStatus: "Status",
-        aboutStatusValue: "Open to Opportunities"
+        aboutStatusValue: "Open to Opportunities",
     },
 
     id: {
@@ -58,6 +58,6 @@ const translations = {
         aboutBackgroundValue: "Sistem Informasi",
         aboutFocus: "Fokus",
         aboutStatus: "Status",
-        aboutStatusValue: "Terbuka untuk Peluang"
+        aboutStatusValue: "Terbuka untuk Peluang",
     }
 };
