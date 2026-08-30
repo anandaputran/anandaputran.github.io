@@ -860,9 +860,9 @@ section {
 
 .contact-description {
   max-width: 620px;
-
   color: #8f8f8f;
-  line-height: 1.7;
+  font-size: 1rem;
+  line-height: 1.75;
 }
 
 .contact-actions {
@@ -891,12 +891,17 @@ section {
 }
 
 .contact-primary span {
-  font-size: 1.1rem;
+  font-size: 1rem;
+  font-weight: 600;
+  letter-spacing: 0.01em;
 }
 
-.contact-links {
-  display: flex;
-  gap: 20px;
+.contact-links a {
+  color: #777777;
+  font-size: 0.82rem;
+  font-weight: 500;
+  letter-spacing: 0.01em;
+  text-decoration: none;
 }
 
 .contact-links a {
@@ -939,6 +944,8 @@ section {
 .back-to-top {
   color: #6f6f6f;
   font-size: 0.78rem;
+  font-weight: 500;
+  line-height: 1.4;
 }
 
 .footer-copy {
@@ -947,13 +954,11 @@ section {
 
 .back-to-top {
   justify-self: end;
-
   display: inline-flex;
   align-items: center;
   gap: 8px;
-
+  letter-spacing: 0.01em;
   text-decoration: none;
-
   transition: color 0.25s ease, transform 0.25s ease;
 }
 
