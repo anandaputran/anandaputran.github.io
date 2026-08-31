@@ -230,6 +230,10 @@ button:focus-visible {
   transform: translateY(-2px);
 }
 
+.btn:active {
+  transform: translateY(0);
+}
+
 .btn-primary {
   background: #f1f1f1;
   color: #111111;
