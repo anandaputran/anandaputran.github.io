@@ -110,7 +110,7 @@ button:focus-visible {
   background: transparent;
   color: #c9c9c9;
   padding: 6px 4px;
-
+  transition: color 0.2s ease;
   font-size: 0.82rem;
   font-weight: 600;
   letter-spacing: 0.04em;
@@ -124,18 +124,22 @@ button:focus-visible {
 
 .menu-toggle {
   display: none;
-
   border: 1px solid #2d2d2d;
   background: transparent;
   color: #c9c9c9;
   border-radius: 999px;
   padding: 8px 12px;
-
   font-size: 0.82rem;
   font-weight: 600;
   letter-spacing: 0.04em;
-
   cursor: pointer;
+  transition: color 0.2s ease, background 0.2s ease, border-color 0.2s ease;
+}
+
+.menu-toggle:hover {
+  color: #ffffff;
+  background: #171717;
+  border-color: #464646;
 }
 
 /* ===== Hero ===== */
