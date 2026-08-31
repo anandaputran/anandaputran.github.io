@@ -235,6 +235,10 @@ button:focus-visible {
   color: #111111;
 }
 
+.btn-primary:hover {
+  background: #ffffff;
+}
+
 .btn-secondary {
   border: 1px solid #343434;
   color: #e7e7e7;
