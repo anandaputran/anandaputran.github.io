@@ -1048,9 +1048,6 @@ section {
     color: #ffffff;
     background: #171717;
     border-color: #464646;
-    display: inline-flex;
-    align-items: center;
-    justify-content: center;
   }
 
   .hero {
