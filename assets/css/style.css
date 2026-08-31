@@ -113,6 +113,9 @@ button:focus-visible {
 }
 
 .language-toggle {
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
   border: 0;
   background: transparent;
   color: #c9c9c9;
@@ -121,7 +124,6 @@ button:focus-visible {
   font-size: 0.82rem;
   font-weight: 600;
   letter-spacing: 0.04em;
-
   cursor: pointer;
 }
 
