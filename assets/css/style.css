@@ -33,6 +33,12 @@ button {
   color: inherit;
 }
 
+a:focus-visible,
+button:focus-visible {
+  outline: 2px solid #f5f5f5;
+  outline-offset: 4px;
+}
+
 .container {
   width: min(1120px, calc(100% - 48px));
   margin-inline: auto;
