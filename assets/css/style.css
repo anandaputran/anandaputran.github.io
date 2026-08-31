@@ -75,6 +75,13 @@ button:focus-visible {
   height: 48px;
   object-fit: contain;
   opacity: 0.88;
+  transition: opacity 0.2s ease, transform 0.2s ease, filter 0.2s ease;
+}
+
+.brand:hover .brand-logo {
+  opacity: 1;
+  transform: translateY(-1px);
+  filter: drop-shadow(0 6px 14px rgba(255, 255, 255, 0.08));
 }
 
 .nav-links {
