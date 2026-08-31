@@ -1037,6 +1037,7 @@ section {
     display: block;
     padding: 12px 14px;
     border-radius: 10px;
+    transition: color 0.2s ease, background 0.2s ease;
   }
 
   .nav-links a:hover {
