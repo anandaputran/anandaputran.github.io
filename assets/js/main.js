@@ -40,6 +40,7 @@ document.addEventListener("keydown", (event) => {
 // ===== Language Switcher =====
 
 const languageToggle = document.querySelector(".language-toggle");
+const languageLabel = document.querySelector(".language-label");
 
 let currentLanguage = localStorage.getItem("language") || "en";
 
@@ -56,7 +57,7 @@ function updateLanguage(language) {
 
     document.documentElement.lang = language;
 
-    languageToggle.textContent = language === "en" ? "ID" : "EN";
+    languageLabel.textContent = language === "en" ? "ID" : "EN";
 
     localStorage.setItem("language", language);
 }
