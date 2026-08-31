@@ -21,6 +21,22 @@ navItems.forEach((item) => {
     item.addEventListener("click", closeMobileMenu);
 });
 
+document.addEventListener("click", (event) => {
+    const clickedInsideNav = navLinks.contains(event.target);
+    const clickedMenuToggle = menuToggle.contains(event.target);
+
+    if (!clickedInsideNav && !clickedMenuToggle) {
+        closeMobileMenu();
+    }
+});
+
+document.addEventListener("keydown", (event) => {
+    if (event.key === "Escape") {
+        closeMobileMenu();
+        menuToggle.focus();
+    }
+});
+
 // ===== Language Switcher =====
 
 const languageToggle = document.querySelector(".language-toggle");
