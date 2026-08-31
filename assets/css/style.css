@@ -670,7 +670,7 @@ section {
 
 .education-year span,
 .education-meta span {
-  color: #8a8a8a;
+  color: #8f8f8f;
   font-size: 0.8rem;
   font-weight: 500;
   letter-spacing: 0.02em;
@@ -678,7 +678,7 @@ section {
 
 .education-level {
   margin-bottom: 10px;
-  color: #8a8a8a;
+  color: #8f8f8f;
   font-size: 0.74rem;
   font-weight: 600;
   text-transform: uppercase;
