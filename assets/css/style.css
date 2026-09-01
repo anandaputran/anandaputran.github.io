@@ -1068,6 +1068,12 @@ section {
     background: #202020;
   }
 
+  .menu-toggle {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+  }
+
   .menu-toggle[aria-expanded="true"] {
     color: #ffffff;
     background: #171717;
