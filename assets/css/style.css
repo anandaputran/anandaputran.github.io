@@ -1021,6 +1021,10 @@ section {
   transform: translateY(-2px);
 }
 
+.back-to-top:active {
+  transform: translateY(0);
+}
+
 /* ===== Responsive: Tablet & Mobile ===== */
 
 @media (max-width: 900px) {
