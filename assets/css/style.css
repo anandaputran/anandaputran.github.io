@@ -127,6 +127,12 @@ button:focus-visible {
   cursor: pointer;
 }
 
+.language-icon {
+  width: 16px;
+  height: 16px;
+  display: block;
+}
+
 .language-toggle:hover {
   color: #ffffff;
 }
