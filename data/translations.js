@@ -80,7 +80,7 @@ const translations = {
     contactLabel: "Contact",
     contactTitleLine1: "Have a project in mind",
     contactTitleLine2: "or an opportunity to discuss?",
-    contactDescription: "I'm open to web development, digital product, and automation opportunities. Let's talk and see what we can build.",
+    contactDescription: "I'm open to web development, frontend development, and automation opportunities. Let's talk and see what we can build.",
     contactButton: "Get in Touch",
 
     // ===== Footer =====
@@ -170,7 +170,7 @@ const translations = {
     contactLabel: "Kontak",
     contactTitleLine1: "Punya proyek dalam pikiran",
     contactTitleLine2: "atau peluang untuk didiskusikan?",
-    contactDescription: "Saya terbuka untuk peluang di bidang pengembangan web, produk digital, dan otomatisasi. Mari berdiskusi dan lihat apa yang bisa kita bangun bersama.",
+    contactDescription: "Saya terbuka untuk peluang di bidang web development, frontend development, dan automation. Mari berdiskusi dan lihat apa yang bisa kita bangun bersama.",
     contactButton: "Hubungi Saya",
 
     // ===== Footer =====
