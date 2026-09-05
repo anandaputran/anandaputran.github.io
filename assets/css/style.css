@@ -701,7 +701,8 @@ section {
 
 /* ===== Education ===== */
 .education {
-  padding: 96px 0;
+  padding: 120px 0;
+  border-top: 1px solid #1d1d1d;
 }
 
 .education-card {
