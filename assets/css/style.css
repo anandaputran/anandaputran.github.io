@@ -690,6 +690,13 @@ section {
   font-size: 0.78rem;
   font-weight: 500;
   letter-spacing: 0.01em;
+  transition: color 0.2s ease, border-color 0.2s ease, background 0.2s ease;
+}
+
+.skill-tags span:hover {
+  color: #d0d0d0;
+  border-color: #3a3a3a;
+  background: #161616;
 }
 
 /* ===== Education ===== */
