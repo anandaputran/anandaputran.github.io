@@ -118,15 +118,15 @@ const translations = {
     aboutStatus: "Status",
     aboutStatusValue: "Terbuka untuk Peluang",
 
-    // ===== Experience =====
-    experienceLabel: "Pengalaman Relevan",
-    experienceTitle: "Pengalaman dalam pengembangan web dan desain yang berfokus pada pengguna.",
-    experienceWebRole: "Web Developer Intern",
-    experienceInternship: "Magang",
-    experienceWebDescription: "Mengembangkan workflow chatbot AI/RAG menggunakan FlowiseAI dan mengintegrasikan antarmuka chatbot ke website perusahaan yang sudah ada.",
-    experienceMentorRole: "Instruktur Workshop UI/UX",
-    experienceMentoring: "Workshop",
-    experienceMentorDescription: "Menyampaikan workshop UI/UX untuk pemula yang mencakup konsep dasar, Figma, dan fundamental desain interaktif.",
+    // ===== Projects =====
+
+    projectsLabel: "Proyek Pilihan",
+    projectsTitle: "Proyek yang dibangun dari permasalahan nyata dan solusi yang praktis.",
+    projectCategory: "Ekosistem Digital",
+    projectFlow: "Company Profile → Chatbot Assistance → Aplikasi Mobile Nawng Academy",
+    projectDescription: "Mengembangkan ekosistem digital Nawng Indonesia yang mencakup website company profile, AI chatbot assistance, dan aplikasi pembelajaran mobile mandiri.",
+    projectCaseStudy: "Lihat Studi Kasus",
+    projectsFooter: "Proyek lainnya akan ditambahkan seiring berkembangnya portofolio.",
 
     // ===== Projects =====
     projectsLabel: "Proyek Pilihan",
