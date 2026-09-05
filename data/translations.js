@@ -18,12 +18,13 @@ const translations = {
     // ===== About =====
     aboutLabel: "About Me",
     aboutTitle: "Building practical digital solutions with purpose.",
-    aboutParagraph1: "I'm an Information Systems graduate with experience in web development, mobile application development, workflow automation, and UI/UX.",
-    aboutParagraph2: "I enjoy turning ideas and business needs into practical digital solutions, from designing user flows and interfaces to building applications and automation workflows.",
+    aboutParagraph1: "I'm an Information Systems graduate focused on Web Development and Frontend Development, with additional experience in mobile application development, workflow automation, and UI/UX.",
+    aboutParagraph2: "I enjoy turning ideas and business needs into practical digital experiences, from building responsive web interfaces to supporting application, automation, and user-focused design needs.",
     aboutBasedIn: "Based in",
     aboutBackground: "Background",
     aboutBackgroundValue: "Information Systems",
     aboutFocus: "Focus",
+    aboutFocusValue: "Web Development • Frontend",
     aboutStatus: "Status",
     aboutStatusValue: "Open to Opportunities",
 
