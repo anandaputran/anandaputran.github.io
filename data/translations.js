@@ -33,10 +33,10 @@ const translations = {
     experienceTitle: "Experience across web development and user-focused design.",
     experienceWebRole: "Web Developer Intern",
     experienceInternship: "Internship",
-    experienceWebDescription: "Developed a chatbot assistant using FlowiseAI and integrated it into the existing company website.",
-    experienceMentorRole: "UI/UX Mentor",
-    experienceMentoring: "Mentoring",
-    experienceMentorDescription: "Mentored participants on basic UI/UX concepts, Figma, and interactive design fundamentals.",
+    experienceWebDescription: "Developed an AI/RAG chatbot workflow using FlowiseAI and integrated the chatbot interface into the company's existing website.",
+    experienceMentorRole: "UI/UX Workshop Instructor",
+    experienceMentoring: "Workshop",
+    experienceMentorDescription: "Delivered a beginner UI/UX workshop covering core concepts, Figma, and interactive design fundamentals.",
 
     // ===== Projects =====
     projectsLabel: "Selected Projects",
