@@ -123,10 +123,10 @@ const translations = {
     experienceTitle: "Pengalaman dalam pengembangan web dan desain yang berfokus pada pengguna.",
     experienceWebRole: "Web Developer Intern",
     experienceInternship: "Magang",
-    experienceWebDescription: "Mengembangkan chatbot assistant menggunakan FlowiseAI dan mengintegrasikannya ke website perusahaan yang sudah ada.",
-    experienceMentorRole: "Mentor UI/UX",
-    experienceMentoring: "Mentoring",
-    experienceMentorDescription: "Membimbing peserta dalam memahami konsep dasar UI/UX, Figma, dan fundamental desain interaktif.",
+    experienceWebDescription: "Mengembangkan workflow chatbot AI/RAG menggunakan FlowiseAI dan mengintegrasikan antarmuka chatbot ke website perusahaan yang sudah ada.",
+    experienceMentorRole: "Instruktur Workshop UI/UX",
+    experienceMentoring: "Workshop",
+    experienceMentorDescription: "Menyampaikan workshop UI/UX untuk pemula yang mencakup konsep dasar, Figma, dan fundamental desain interaktif.",
 
     // ===== Projects =====
     projectsLabel: "Proyek Pilihan",
