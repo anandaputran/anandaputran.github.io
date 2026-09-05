@@ -269,6 +269,12 @@ button:focus-visible {
   background: #171717;
 }
 
+.hero-socials {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 18px;
+}
+
 .hero-socials a {
   color: #8f8f8f;
   font-size: 0.88rem;
