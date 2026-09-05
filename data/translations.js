@@ -106,12 +106,14 @@ const translations = {
     // ===== About =====
     aboutLabel: "Tentang Saya",
     aboutTitle: "Membangun solusi digital praktis dengan tujuan yang jelas.",
-    aboutParagraph1: "Saya adalah lulusan Sistem Informasi dengan pengalaman dalam pengembangan web, pengembangan aplikasi mobile, otomatisasi alur kerja, dan UI/UX.",
-    aboutParagraph2: "Saya menikmati proses mengubah ide dan kebutuhan bisnis menjadi solusi digital yang praktis, mulai dari merancang alur pengguna dan antarmuka hingga membangun aplikasi dan workflow automation.",
+    aboutParagraph1: "Saya adalah lulusan Sistem Informasi yang berfokus pada Web Development dan Frontend Development, dengan pengalaman tambahan dalam pengembangan aplikasi mobile, workflow automation, dan UI/UX.",
+    aboutParagraph2:
+      "Saya menikmati proses mengubah ide dan kebutuhan bisnis menjadi pengalaman digital yang praktis, mulai dari membangun antarmuka web yang responsif hingga mendukung kebutuhan aplikasi, automation, dan desain yang berfokus pada pengguna.",
     aboutBasedIn: "Domisili",
     aboutBackground: "Latar Belakang",
     aboutBackgroundValue: "Sistem Informasi",
     aboutFocus: "Fokus",
+    aboutFocusValue: "Web Development • Frontend",
     aboutStatus: "Status",
     aboutStatusValue: "Terbuka untuk Peluang",
 
