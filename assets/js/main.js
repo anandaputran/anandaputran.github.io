@@ -33,7 +33,9 @@ document.addEventListener("click", (event) => {
 });
 
 document.addEventListener("keydown", (event) => {
-  if (event.key === "Escape") {
+  const isMenuOpen = navLinks.classList.contains("active");
+
+  if (event.key === "Escape" && isMenuOpen) {
     closeMobileMenu();
     menuToggle.focus();
   }
