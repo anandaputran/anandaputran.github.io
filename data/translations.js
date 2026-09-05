@@ -42,8 +42,8 @@ const translations = {
     projectsLabel: "Selected Projects",
     projectsTitle: "Projects built around real problems and practical solutions.",
     projectCategory: "Digital Ecosystem",
-    projectFlow: "Company Profile → Chatbot Assistance → Nawng Academy Android App",
-    projectDescription: "Developed Nawng Indonesia's digital ecosystem across web, chatbot assistance, and a standalone Android learning application.",
+    projectFlow: "Company Profile → Chatbot Assistance → Nawng Academy Mobile App",
+    projectDescription: "Developed a digital ecosystem for Nawng Indonesia covering a company profile website, AI chatbot assistance, and a standalone mobile learning application.",
     projectCaseStudy: "View Case Study",
     projectsFooter: "More projects will be added as the portfolio grows.",
 
