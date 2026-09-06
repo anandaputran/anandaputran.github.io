@@ -117,7 +117,7 @@ Yang paling penting, proyek ini semakin memperkuat alasan saya untuk terus mempe
 
 ## Status Proyek & Roadmap
 
-Portfolio v1 telah selesai dibangun dan dirilis. Versi stabil pertama ini mencakup core structure, responsive layout, bilingual support, visual system, interaction, accessibility considerations, performance optimization, serta konfigurasi SEO dasar.
+Website portfolio pribadi saya telah selesai dibangun dan dirilis. Versi stabil pertama ini mencakup core structure, responsive layout, bilingual support, visual system, interaction, accessibility considerations, performance optimization, serta konfigurasi SEO dasar.
 
 Mulai dari tahap ini, portfolio akan dipelihara sebagai profil profesional yang terus berkembang, bukan lagi sebagai initial build yang belum selesai. Project, sertifikasi, skill, dan update relevan lainnya akan ditambahkan ketika sudah siap untuk ditampilkan.
 
