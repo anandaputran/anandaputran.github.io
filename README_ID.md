@@ -1,6 +1,6 @@
 # Ananda Putra Nugraha — Personal Portfolio
 
-[English Version](README.md)
+[English](README.md)
 
 Personal portfolio yang dibangun ulang dari awal sebagai bagian dari proses pengembangan saya di bidang Web Development dan Frontend Development.
 

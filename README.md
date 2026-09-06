@@ -1,6 +1,6 @@
 # Ananda Putra Nugraha — Personal Portfolio
 
-[Versi Bahasa Indonesia](README_ID.md)
+[Bahasa Indonesia](README_ID.md)
 
 A from-scratch personal portfolio built as part of my ongoing development in Web Development and Frontend Development.
 
