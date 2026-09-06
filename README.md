@@ -117,7 +117,7 @@ Most importantly, this project reinforced why I want to keep strengthening my fu
 
 ## Project Status & Roadmap
 
-Portfolio v1 has been completed and released. The first stable version includes the core structure, responsive layout, bilingual support, visual system, interactions, accessibility considerations, performance optimization, and basic SEO configuration.
+My web personal portfolio has been completed and released. The first stable version includes the core structure, responsive layout, bilingual support, visual system, interactions, accessibility considerations, performance optimization, and basic SEO configuration.
 
 From this point forward, the portfolio will be maintained as an evolving professional profile rather than an unfinished initial build. New projects, certifications, skills, and other relevant updates will be added when they are ready to be presented.
 
