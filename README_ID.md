@@ -117,16 +117,10 @@ Yang paling penting, proyek ini semakin memperkuat alasan saya untuk terus mempe
 
 ## Status Proyek & Roadmap
 
-Portfolio saat ini sedang mendekati stable release pertamanya. Core structure, responsive layout, bilingual support, visual system, interaction, dan crafted details telah selesai dibangun dan didokumentasikan.
+Portfolio v1 telah selesai dibangun dan dirilis. Versi stabil pertama ini mencakup core structure, responsive layout, bilingual support, visual system, interaction, accessibility considerations, performance optimization, serta konfigurasi SEO dasar.
 
-Sebelum release pertama, pekerjaan yang tersisa berfokus pada:
+Mulai dari tahap ini, portfolio akan dipelihara sebagai profil profesional yang terus berkembang, bukan lagi sebagai initial build yang belum selesai. Project, sertifikasi, skill, dan update relevan lainnya akan ditambahkan ketika sudah siap untuk ditampilkan.
 
-- Final visual dan content polish
-- Cleanup kode dan asset
-- Cross-device dan interaction QA
-- Performance optimization
-- Review SEO dan metadata
+Perubahan berikutnya akan diperlakukan sebagai incremental update, bukan blocker untuk release yang sudah berjalan.
 
-Setelah v1 dirilis, portfolio akan terus berkembang ketika proyek, sertifikasi, dan kemampuan baru sudah siap untuk ditampilkan. Penambahan berikutnya akan diperlakukan sebagai update, bukan blocker untuk initial release.
-
-**Status saat ini: Documentation Catch-up → Final Polish → Cleanup / QA → Performance & SEO → v1 Release**
+**Status saat ini: Released**

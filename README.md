@@ -117,16 +117,10 @@ Most importantly, this project reinforced why I want to keep strengthening my fu
 
 ## Project Status & Roadmap
 
-The portfolio is currently approaching its first stable release. The core structure, responsive layout, bilingual support, visual system, interactions, and crafted details have been completed and documented.
+Portfolio v1 has been completed and released. The first stable version includes the core structure, responsive layout, bilingual support, visual system, interactions, accessibility considerations, performance optimization, and basic SEO configuration.
 
-Before the first release, the remaining work focuses on:
+From this point forward, the portfolio will be maintained as an evolving professional profile rather than an unfinished initial build. New projects, certifications, skills, and other relevant updates will be added when they are ready to be presented.
 
-- Final visual and content polish
-- Code and asset cleanup
-- Cross-device and interaction QA
-- Performance optimization
-- SEO and metadata review
+Future changes will be treated as incremental updates rather than blockers to the current release.
 
-After v1 is released, the portfolio will continue to evolve as new projects, certifications, and skills become ready to be presented. Future additions will be treated as updates rather than blockers for the initial release.
-
-**Current status: Documentation Catch-up → Final Polish → Cleanup / QA → Performance & SEO → v1 Release**
+**Current status: Released**
