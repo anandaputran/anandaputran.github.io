@@ -42,30 +42,37 @@
   <body>
     <!-- ===== Header / Navbar ===== -->
     <header id="header">
-      <nav class="navbar container">
-        <a href="#hero" class="brand" aria-label="Back to homepage">
-          <img src="assets/icons/apn-logo.webp" alt="APN Logo" class="brand-logo" />
-        </a>
+      <nav class="navbar">
+        <div class="container navbar-inner">
+          <a href="#hero" class="brand" aria-label="Back to homepage">
+            <img src="assets/icons/apn-logo.webp" alt="APN Logo" class="brand-logo" />
+          </a>
 
-        <ul class="nav-links">
-          <li><a href="#about" data-i18n="navAbout">About</a></li>
-          <li><a href="#experience" data-i18n="navExperience">Experience</a></li>
-          <li><a href="#projects" data-i18n="navProjects">Projects</a></li>
-          <li><a href="#skills" data-i18n="navSkills">Skills</a></li>
-          <li><a href="#contact" data-i18n="navContact">Contact</a></li>
-        </ul>
-
-        <div class="nav-actions">
-          <a href="https://anandaputran.github.io/" target="_blank" rel="noopener noreferrer"> <span data-i18n="navPortfolio">Services</span> ↗ </a>
-
-          <a href="#"> <span data-i18n="navUniverse">UNIVERSE</span> ↗ </a>
-
-          <button class="language-toggle" type="button" aria-label="Switch language">
-            <img src="assets/icons/globe.svg" alt="" class="language-icon" aria-hidden="true" />
-            <span class="language-label">ID</span>
+          <button type="button" class="menu-toggle" aria-label="Open navigation menu" aria-expanded="false">
+            <span></span>
+            <span></span>
           </button>
 
-          <button type="button" class="menu-toggle" aria-label="Open navigation menu" aria-expanded="false">☰</button>
+          <div class="navbar-menu">
+            <ul class="nav-links">
+              <li><a href="#about" data-i18n="navAbout">About</a></li>
+              <li><a href="#experience" data-i18n="navExperience">Experience</a></li>
+              <li><a href="#projects" data-i18n="navProjects">Projects</a></li>
+              <li><a href="#skills" data-i18n="navSkills">Skills</a></li>
+              <li><a href="#contact" data-i18n="navContact">Contact</a></li>
+            </ul>
+
+            <div class="nav-actions">
+              <a href="https://anandaputran.github.io/" target="_blank" rel="noopener noreferrer"> <span data-i18n="navPortfolio">Services</span> ↗ </a>
+
+              <a href="#"> <span data-i18n="navUniverse">Universe</span> ↗ </a>
+
+              <button class="language-toggle" type="button" aria-label="Switch language">
+                <img src="assets/icons/globe.svg" alt="" class="language-icon" aria-hidden="true" />
+                <span class="language-label">ID</span>
+              </button>
+            </div>
+          </div>
         </div>
       </nav>
     </header>
