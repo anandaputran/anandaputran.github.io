@@ -72,8 +72,8 @@ button:focus-visible {
 }
 
 .brand-logo {
-  width: 48px;
-  height: 48px;
+  width: 36px;
+  height: 36px;
   object-fit: contain;
   opacity: 0.88;
   transition: opacity 0.2s ease, transform 0.2s ease, filter 0.2s ease;
