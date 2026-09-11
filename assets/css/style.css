@@ -45,61 +45,44 @@ button:focus-visible {
 }
 
 /* ===== Header / Navbar ===== */
+
 #header {
   position: sticky;
   top: 0;
   z-index: 1000;
-
   background: rgba(11, 11, 11, 0.82);
-
   -webkit-backdrop-filter: blur(14px);
   backdrop-filter: blur(14px);
-
-  border-bottom: 1px solid rgba(255, 255, 255, 0.04);
 }
 
 .navbar {
   min-height: 76px;
-  display: flex;
-  align-items: center;
-}
 
-.navbar-inner {
   display: flex;
   align-items: center;
   justify-content: space-between;
+  position: relative;
 
-  gap: 2rem;
+  gap: 32px;
 }
 
 .brand {
   display: inline-flex;
   align-items: center;
-
-  flex-shrink: 0;
 }
 
 .brand-logo {
   width: 36px;
   height: 36px;
-
   object-fit: contain;
-
-  opacity: 0.92;
-
-  transition: opacity 180ms ease, transform 180ms ease;
+  opacity: 0.88;
+  transition: opacity 0.2s ease, transform 0.2s ease, filter 0.2s ease;
 }
 
 .brand:hover .brand-logo {
   opacity: 1;
   transform: translateY(-1px);
-}
-
-.navbar-menu {
-  display: flex;
-  align-items: center;
-
-  gap: 2rem;
+  filter: drop-shadow(0 6px 14px rgba(255, 255, 255, 0.08));
 }
 
 .nav-links {
@@ -107,86 +90,76 @@ button:focus-visible {
 
   display: flex;
   align-items: center;
+  gap: 28px;
 
-  gap: 1.5rem;
+  margin-left: auto;
 }
 
-.nav-links a,
-.nav-actions a {
-  font-size: 0.92rem;
+.nav-links a {
+  font-size: 0.9rem;
   font-weight: 500;
-
+  letter-spacing: 0.01em;
   color: #c9c9c9;
-
-  transition: color 180ms ease;
+  transition: color 0.2s ease;
 }
 
-.nav-links a:hover,
-.nav-actions a:hover {
-  color: #f5f5f5;
+.nav-links a:hover {
+  color: #ffffff;
 }
 
 .nav-actions {
   display: flex;
   align-items: center;
-
-  gap: 1.5rem;
-
-  padding-left: 2rem;
-
-  border-left: 1px solid #242424;
+  gap: 12px;
 }
 
 .language-toggle {
   display: inline-flex;
   align-items: center;
-
-  gap: 0.45rem;
-
-  padding: 0;
+  gap: 6px;
   border: 0;
-
   background: transparent;
-
   color: #c9c9c9;
-
-  font: inherit;
-  font-size: 0.92rem;
+  padding: 6px 4px;
+  transition: color 0.2s ease;
+  font-size: 0.82rem;
   font-weight: 600;
-
+  letter-spacing: 0.04em;
   cursor: pointer;
-
-  transition: color 180ms ease;
 }
 
 .language-icon {
   width: 18px;
   height: 18px;
-
-  opacity: 0.75;
+  display: block;
 }
 
 .language-toggle:hover {
-  color: #f5f5f5;
-}
-
-.language-toggle:hover .language-icon {
-  opacity: 1;
+  color: #ffffff;
 }
 
 .menu-toggle {
   display: none;
+  border: 1px solid #2d2d2d;
+  background: transparent;
+  color: #c9c9c9;
+  border-radius: 999px;
+  padding: 8px 12px;
+  font-size: 0.82rem;
+  font-weight: 600;
+  letter-spacing: 0.04em;
+  cursor: pointer;
+  transition: color 0.2s ease, background 0.2s ease, border-color 0.2s ease;
 }
 
-.menu-toggle[aria-expanded="true"] span:first-child {
-  transform: translateY(3px) rotate(45deg);
-}
-
-.menu-toggle[aria-expanded="true"] span:last-child {
-  transform: translateY(-3px) rotate(-45deg);
+.menu-toggle:hover {
+  color: #ffffff;
+  background: #171717;
+  border-color: #464646;
 }
 
 /* ===== Hero ===== */
+
 .hero {
   min-height: calc(100vh - 76px);
 
@@ -1080,130 +1053,52 @@ section {
     width: min(100% - 32px, 1120px);
   }
 
-  .navbar {
-    min-height: 68px;
-  }
-
-  .navbar-inner {
-    position: relative;
-    gap: 1rem;
-  }
-
-  .brand {
-    position: relative;
-    z-index: 1002;
-  }
-
-  .menu-toggle {
-    position: relative;
-    z-index: 1002;
-
-    display: inline-flex;
-    flex-direction: column;
-    justify-content: center;
-    gap: 5px;
-
-    width: 42px;
-    height: 42px;
-    padding: 0 11px;
-
-    border: 1px solid #242424;
-    border-radius: 999px;
-    background: rgba(255, 255, 255, 0.02);
-
-    cursor: pointer;
-  }
-
-  .menu-toggle span {
-    display: block;
-
-    width: 100%;
-    height: 1px;
-
-    background: #f5f5f5;
-
-    transition: transform 180ms ease, opacity 180ms ease;
-  }
-
-  .navbar-menu {
+  .nav-links {
     position: absolute;
-    top: calc(100% + 12px);
-    left: 0;
-    right: 0;
-
+    top: calc(100% + 8px);
+    right: 16px;
+    left: 16px;
     display: flex;
     flex-direction: column;
     align-items: stretch;
-    gap: 0;
-
-    padding: 1rem;
-
-    background: #111111;
-    border: 1px solid #242424;
+    gap: 4px;
+    padding: 12px;
+    background: rgba(18, 18, 18, 0.96);
+    border: 1px solid #2b2b2b;
     border-radius: 16px;
-
     opacity: 0;
     visibility: hidden;
     transform: translateY(-8px);
-    pointer-events: none;
-
-    transition: opacity 180ms ease, visibility 180ms ease, transform 180ms ease;
+    transition: opacity 0.2s ease, transform 0.2s ease, visibility 0.2s ease;
   }
 
-  .navbar-menu.active {
+  .nav-links.active {
     opacity: 1;
     visibility: visible;
     transform: translateY(0);
-    pointer-events: auto;
   }
 
-  .nav-links,
-  .nav-actions {
-    display: flex;
-    flex-direction: column;
-    align-items: stretch;
-
-    gap: 0;
+  .nav-links a {
+    display: block;
+    padding: 12px 14px;
+    border-radius: 10px;
+    transition: color 0.2s ease, background 0.2s ease;
   }
 
-  .nav-links {
-    margin-left: 0;
+  .nav-links a:hover {
+    background: #202020;
   }
 
-  .nav-links li {
-    width: 100%;
-  }
-
-  .nav-links a,
-  .nav-actions a,
-  .language-toggle {
-    display: flex;
+  .menu-toggle {
+    display: inline-flex;
     align-items: center;
-
-    width: 100%;
-    padding: 0.85rem 0.25rem;
-
-    font-size: 0.95rem;
-    text-align: left;
+    justify-content: center;
   }
 
-  .nav-links li + li,
-  .nav-actions a + a {
-    border-top: 1px solid rgba(255, 255, 255, 0.05);
-  }
-
-  .nav-actions {
-    margin-top: 0.5rem;
-    padding-top: 0.5rem;
-    padding-left: 0;
-
-    border-left: 0;
-    border-top: 1px solid #242424;
-  }
-
-  .language-toggle {
-    justify-content: flex-start;
-    border-top: 1px solid rgba(255, 255, 255, 0.05);
+  .menu-toggle[aria-expanded="true"] {
+    color: #ffffff;
+    background: #171717;
+    border-color: #464646;
   }
 
   .hero {
@@ -1376,16 +1271,14 @@ section {
 /* ===== Responsive: Small Mobile ===== */
 
 @media (max-width: 600px) {
-  /* ===== MOBILE NAVBAR ===== */
-
   .navbar {
     min-height: 68px;
     gap: 16px;
   }
 
   .brand-logo {
-    width: 36px;
-    height: 36px;
+    width: 40px;
+    height: 40px;
   }
 
   .nav-actions {
@@ -1395,12 +1288,6 @@ section {
   .language-toggle {
     padding: 6px 4px;
     border-radius: 0;
-    font-size: 0.82rem;
-  }
-
-  .language-icon {
-    width: 18px;
-    height: 18px;
   }
 
   .menu-toggle {
