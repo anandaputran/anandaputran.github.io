@@ -1583,6 +1583,14 @@ section {
     font-size: 0.72rem;
   }
 
+  .project-thumbnails {
+    gap: 10px;
+  }
+
+  .project-thumbnail {
+    flex: 0 1 calc((100% - 10px) / 2);
+  }
+
   .projects-footer {
     margin-top: 18px;
     font-size: 0.8rem;
