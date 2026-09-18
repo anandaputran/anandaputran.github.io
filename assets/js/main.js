@@ -73,3 +73,38 @@ languageToggle.addEventListener("click", () => {
 });
 
 updateLanguage(currentLanguage);
+
+// ===== Project Showcase =====
+const projectImage = document.querySelector("#projectImage");
+const projectNumber = document.querySelector("#projectNumber");
+const projectCategory = document.querySelector("#projectCategory");
+const projectTitle = document.querySelector("#projectTitle");
+const projectFlow = document.querySelector("#projectFlow");
+const projectDescription = document.querySelector("#projectDescription");
+const projectTech = document.querySelector("#projectTech");
+const projectAction = document.querySelector("#projectAction");
+const projectActionLabel = document.querySelector("#projectActionLabel");
+
+function renderProject(project) {
+  projectImage.src = project.image;
+  projectImage.alt = project.imageAlt;
+
+  projectNumber.textContent = project.number;
+  projectCategory.textContent = project.category[currentLanguage];
+  projectTitle.textContent = project.title;
+  projectFlow.textContent = project.flow[currentLanguage];
+  projectDescription.textContent = project.description[currentLanguage];
+
+  projectTech.innerHTML = "";
+
+  project.tech.forEach((technology) => {
+    const tag = document.createElement("span");
+    tag.textContent = technology;
+    projectTech.appendChild(tag);
+  });
+
+  projectAction.href = project.action.url;
+  projectActionLabel.textContent = project.action.label[currentLanguage];
+}
+
+renderProject(projects[0]);
