@@ -659,7 +659,6 @@ section {
   background: #101010;
   color: #8f8f8f;
   font: inherit;
-  text-align: left;
   cursor: pointer;
   transition: border-color 0.2s ease, background 0.2s ease, color 0.2s ease;
 }
