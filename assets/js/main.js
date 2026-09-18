@@ -110,7 +110,8 @@ function renderProject(project) {
   projectActionLabel.textContent = project.action.label[currentLanguage];
 }
 
-renderProject(projects[0]);
+renderProject(projects[activeProjectIndex]);
+renderProjectThumbnails();
 
 function renderProjectThumbnails() {
   projectThumbnails.innerHTML = "";
