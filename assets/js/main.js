@@ -85,8 +85,15 @@ const projectTech = document.querySelector("#projectTech");
 const projectAction = document.querySelector("#projectAction");
 const projectActionLabel = document.querySelector("#projectActionLabel");
 const projectThumbnails = document.querySelector("#projectThumbnails");
+const projectPagination = document.querySelector(".project-pagination");
+const projectPagePrev = document.querySelector(".project-page-prev");
+const projectPageNext = document.querySelector(".project-page-next");
+const projectPageStatus = document.querySelector("#projectPageStatus");
 
 let activeProjectIndex = 0;
+let currentProjectPage = 0;
+
+const projectsPerPage = 4;
 
 function renderProject(project) {
   projectImage.src = project.image;
@@ -113,12 +120,18 @@ function renderProject(project) {
 function renderProjectThumbnails() {
   projectThumbnails.innerHTML = "";
 
-  projects.forEach((project, index) => {
+  const startIndex = currentProjectPage * projectsPerPage;
+  const endIndex = startIndex + projectsPerPage;
+  const visibleProjects = projects.slice(startIndex, endIndex);
+
+  visibleProjects.forEach((project, index) => {
+    const projectIndex = startIndex + index;
+
     const button = document.createElement("button");
     button.type = "button";
     button.className = "project-thumbnail";
 
-    if (index === activeProjectIndex) {
+    if (projectIndex === activeProjectIndex) {
       button.classList.add("active");
     }
 
@@ -133,7 +146,7 @@ function renderProjectThumbnails() {
     button.appendChild(title);
 
     button.addEventListener("click", () => {
-      activeProjectIndex = index;
+      activeProjectIndex = projectIndex;
 
       renderProject(projects[activeProjectIndex]);
       renderProjectThumbnails();
@@ -141,6 +154,8 @@ function renderProjectThumbnails() {
 
     projectThumbnails.appendChild(button);
   });
+
+  updateProjectPagination();
 }
 
 renderProject(projects[activeProjectIndex]);
