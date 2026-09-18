@@ -702,6 +702,10 @@ section {
   margin-top: 20px;
 }
 
+.project-pagination[hidden] {
+  display: none;
+}
+
 .project-page-button {
   display: inline-flex;
   align-items: center;
