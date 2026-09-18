@@ -70,7 +70,6 @@ languageToggle.addEventListener("click", () => {
   currentLanguage = currentLanguage === "en" ? "id" : "en";
   updateLanguage(currentLanguage);
   renderProject(projects[activeProjectIndex]);
-  renderProjectThumbnails();
 });
 
 updateLanguage(currentLanguage);
@@ -145,3 +144,6 @@ function renderProjectThumbnails() {
     projectThumbnails.appendChild(button);
   });
 }
+
+renderProject(projects[activeProjectIndex]);
+renderProjectThumbnails();
