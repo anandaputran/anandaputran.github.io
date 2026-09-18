@@ -69,7 +69,8 @@ function updateLanguage(language) {
 languageToggle.addEventListener("click", () => {
   currentLanguage = currentLanguage === "en" ? "id" : "en";
   updateLanguage(currentLanguage);
-  renderProject(projects[0]);
+  renderProject(projects[activeProjectIndex]);
+  renderProjectThumbnails();
 });
 
 updateLanguage(currentLanguage);
@@ -110,8 +111,7 @@ function renderProject(project) {
   projectActionLabel.textContent = project.action.label[currentLanguage];
 }
 
-renderProject(projects[activeProjectIndex]);
-renderProjectThumbnails();
+renderProject(projects[0]);
 
 function renderProjectThumbnails() {
   projectThumbnails.innerHTML = "";
