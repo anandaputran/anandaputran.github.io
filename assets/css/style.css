@@ -650,12 +650,11 @@ section {
 }
 
 .project-thumbnail {
-  display: grid;
-  grid-template-columns: 88px minmax(0, 1fr);
-  align-items: center;
-  gap: 14px;
+  display: flex;
+  flex-direction: column;
   min-width: 0;
-  padding: 10px;
+  overflow: hidden;
+  padding: 8px;
   border: 1px solid #222222;
   border-radius: 12px;
   background: #101010;
@@ -667,7 +666,7 @@ section {
 }
 
 .project-thumbnail img {
-  width: 88px;
+  width: 100%;
   aspect-ratio: 4 / 3;
   display: block;
   object-fit: cover;
@@ -675,7 +674,8 @@ section {
 }
 
 .project-thumbnail span {
-  min-width: 0;
+  width: 100%;
+  padding: 10px 4px 4px;
   font-size: 0.78rem;
   font-weight: 500;
   line-height: 1.4;
