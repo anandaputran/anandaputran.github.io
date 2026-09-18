@@ -41,10 +41,6 @@ const translations = {
     // ===== Projects =====
     projectsLabel: "Selected Projects",
     projectsTitle: "Projects built around real problems and practical solutions.",
-    projectCategory: "Digital Ecosystem",
-    projectFlow: "Company Profile → Chatbot Assistance → Nawng Academy Mobile App",
-    projectDescription: "Developed a digital ecosystem for Nawng Indonesia covering a company profile website, AI chatbot assistance, and a standalone mobile learning application.",
-    projectCaseStudy: "View Case Study",
     projectsFooter: "More projects will be added as the portfolio grows.",
 
     // ===== Skills =====
@@ -131,10 +127,6 @@ const translations = {
     // ===== Projects =====
     projectsLabel: "Proyek Pilihan",
     projectsTitle: "Proyek yang dibangun dari permasalahan nyata dan solusi yang praktis.",
-    projectCategory: "Ekosistem Digital",
-    projectFlow: "Company Profile → Chatbot Assistance → Aplikasi Mobile Nawng Academy",
-    projectDescription: "Mengembangkan ekosistem digital Nawng Indonesia yang mencakup website company profile, AI chatbot assistance, dan aplikasi pembelajaran mobile mandiri.",
-    projectCaseStudy: "Lihat Studi Kasus",
     projectsFooter: "Proyek lainnya akan ditambahkan seiring berkembangnya portofolio.",
 
     // ===== Skills =====
