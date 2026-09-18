@@ -189,12 +189,19 @@ projectPagePrev.addEventListener("click", () => {
 });
 
 projectPageNext.addEventListener("click", () => {
+  const projectsPerPage = getProjectsPerPage();
   const totalPages = Math.ceil(projects.length / projectsPerPage);
 
   if (currentProjectPage < totalPages - 1) {
     currentProjectPage++;
     renderProjectThumbnails();
   }
+});
+
+mobileProjectQuery.addEventListener("change", () => {
+  currentProjectPage = Math.floor(activeProjectIndex / getProjectsPerPage());
+
+  renderProjectThumbnails();
 });
 
 renderProject(projects[activeProjectIndex]);
