@@ -84,6 +84,9 @@ const projectDescription = document.querySelector("#projectDescription");
 const projectTech = document.querySelector("#projectTech");
 const projectAction = document.querySelector("#projectAction");
 const projectActionLabel = document.querySelector("#projectActionLabel");
+const projectThumbnails = document.querySelector("#projectThumbnails");
+
+let activeProjectIndex = 0;
 
 function renderProject(project) {
   projectImage.src = project.image;
@@ -109,6 +112,35 @@ function renderProject(project) {
 
 renderProject(projects[0]);
 
-const projectThumbnails = document.querySelector("#projectThumbnails");
+function renderProjectThumbnails() {
+  projectThumbnails.innerHTML = "";
 
-let activeProjectIndex = 0;
+  projects.forEach((project, index) => {
+    const button = document.createElement("button");
+    button.type = "button";
+    button.className = "project-thumbnail";
+
+    if (index === activeProjectIndex) {
+      button.classList.add("active");
+    }
+
+    const image = document.createElement("img");
+    image.src = project.image;
+    image.alt = "";
+
+    const title = document.createElement("span");
+    title.textContent = project.title;
+
+    button.appendChild(image);
+    button.appendChild(title);
+
+    button.addEventListener("click", () => {
+      activeProjectIndex = index;
+
+      renderProject(projects[activeProjectIndex]);
+      renderProjectThumbnails();
+    });
+
+    projectThumbnails.appendChild(button);
+  });
+}
