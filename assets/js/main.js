@@ -93,7 +93,11 @@ const projectPageStatus = document.querySelector("#projectPageStatus");
 let activeProjectIndex = 0;
 let currentProjectPage = 0;
 
-const projectsPerPage = 4;
+const mobileProjectQuery = window.matchMedia("(max-width: 600px)");
+
+function getProjectsPerPage() {
+  return mobileProjectQuery.matches ? 2 : 4;
+}
 
 function renderProject(project) {
   projectImage.src = project.image;
@@ -119,6 +123,8 @@ function renderProject(project) {
 
 function renderProjectThumbnails() {
   projectThumbnails.innerHTML = "";
+
+  const projectsPerPage = getProjectsPerPage();
 
   const startIndex = currentProjectPage * projectsPerPage;
   const endIndex = startIndex + projectsPerPage;
@@ -159,6 +165,7 @@ function renderProjectThumbnails() {
 }
 
 function updateProjectPagination() {
+  const projectsPerPage = getProjectsPerPage();
   const totalPages = Math.ceil(projects.length / projectsPerPage);
 
   if (totalPages <= 1) {
