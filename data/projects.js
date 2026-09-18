@@ -93,7 +93,7 @@ const projects = [
     image: "assets/img/projects/katga.webp",
     imageAlt: "KATGA internal K3 educational web game mockup",
 
-    tech: ["HTML", "CSS", "JavaScript", "Firebase"],
+    tech: ["HTML", "CSS", "JavaScript", "Firebase Firestore"],
 
     action: null,
   },
