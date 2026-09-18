@@ -108,3 +108,7 @@ function renderProject(project) {
 }
 
 renderProject(projects[0]);
+
+const projectThumbnails = document.querySelector("#projectThumbnails");
+
+let activeProjectIndex = 0;
