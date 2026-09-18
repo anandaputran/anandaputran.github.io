@@ -118,8 +118,13 @@ function renderProject(project) {
     projectTech.appendChild(tag);
   });
 
-  projectAction.href = project.action.url;
-  projectActionLabel.textContent = project.action.label[currentLanguage];
+  if (project.action) {
+    projectActions.hidden = false;
+    projectAction.href = project.action.url;
+    projectActionLabel.textContent = project.action.label[currentLanguage];
+  } else {
+    projectActions.hidden = true;
+  }
 }
 
 function renderProjectThumbnails() {
