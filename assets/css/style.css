@@ -668,7 +668,7 @@ section {
 
 .project-thumbnail img {
   width: 88px;
-  aspect-ratio: 16 / 9;
+  aspect-ratio: 4 / 3;
   display: block;
   object-fit: cover;
   border-radius: 7px;
