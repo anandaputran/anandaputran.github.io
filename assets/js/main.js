@@ -158,5 +158,37 @@ function renderProjectThumbnails() {
   updateProjectPagination();
 }
 
+function updateProjectPagination() {
+  const totalPages = Math.ceil(projects.length / projectsPerPage);
+
+  if (totalPages <= 1) {
+    projectPagination.hidden = true;
+    return;
+  }
+
+  projectPagination.hidden = false;
+
+  projectPageStatus.textContent = `${currentProjectPage + 1} / ${totalPages}`;
+
+  projectPagePrev.disabled = currentProjectPage === 0;
+  projectPageNext.disabled = currentProjectPage === totalPages - 1;
+}
+
+projectPagePrev.addEventListener("click", () => {
+  if (currentProjectPage > 0) {
+    currentProjectPage--;
+    renderProjectThumbnails();
+  }
+});
+
+projectPageNext.addEventListener("click", () => {
+  const totalPages = Math.ceil(projects.length / projectsPerPage);
+
+  if (currentProjectPage < totalPages - 1) {
+    currentProjectPage++;
+    renderProjectThumbnails();
+  }
+});
+
 renderProject(projects[activeProjectIndex]);
 renderProjectThumbnails();
