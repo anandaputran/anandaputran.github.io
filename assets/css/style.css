@@ -638,6 +638,61 @@ section {
   transform: scale(1.04);
 }
 
+/* ==== Project Selector ==== */
+.project-selector {
+  margin-top: 24px;
+}
+
+.project-thumbnails {
+  display: grid;
+  grid-template-columns: repeat(4, minmax(0, 1fr));
+  gap: 12px;
+}
+
+.project-thumbnail {
+  display: grid;
+  grid-template-columns: 88px minmax(0, 1fr);
+  align-items: center;
+  gap: 14px;
+  min-width: 0;
+  padding: 10px;
+  border: 1px solid #222222;
+  border-radius: 12px;
+  background: #101010;
+  color: #8f8f8f;
+  font: inherit;
+  text-align: left;
+  cursor: pointer;
+  transition: border-color 0.2s ease, background 0.2s ease, color 0.2s ease;
+}
+
+.project-thumbnail img {
+  width: 88px;
+  aspect-ratio: 16 / 9;
+  display: block;
+  object-fit: cover;
+  border-radius: 7px;
+}
+
+.project-thumbnail span {
+  min-width: 0;
+  font-size: 0.78rem;
+  font-weight: 500;
+  line-height: 1.4;
+}
+
+.project-thumbnail:hover {
+  border-color: #3a3a3a;
+  background: #141414;
+  color: #d0d0d0;
+}
+
+.project-thumbnail.active {
+  border-color: #555555;
+  background: #161616;
+  color: #ffffff;
+}
+
 /* ===== Skills ===== */
 
 .skills {
