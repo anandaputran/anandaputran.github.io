@@ -68,8 +68,8 @@ function updateLanguage(language) {
 
 languageToggle.addEventListener("click", () => {
   currentLanguage = currentLanguage === "en" ? "id" : "en";
-
   updateLanguage(currentLanguage);
+  renderProject(projects[0]);
 });
 
 updateLanguage(currentLanguage);
