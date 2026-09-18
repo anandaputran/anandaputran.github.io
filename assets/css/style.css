@@ -585,6 +585,10 @@ section {
   gap: 16px;
 }
 
+.project-actions[hidden] {
+  display: none;
+}
+
 .project-link {
   display: inline-flex;
   align-items: center;
