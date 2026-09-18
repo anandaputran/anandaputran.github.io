@@ -679,6 +679,7 @@ section {
   font-size: 0.78rem;
   font-weight: 500;
   line-height: 1.4;
+  text-align: center;
 }
 
 .project-thumbnail:hover {
