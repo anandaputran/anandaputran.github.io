@@ -673,7 +673,9 @@ section {
 }
 
 .project-thumbnail span {
-  width: 100%;
+  width: fit-content;
+  max-width: 100%;
+  margin-inline: auto;
   padding: 10px 4px 4px;
   font-size: 0.78rem;
   font-weight: 500;
