@@ -644,14 +644,13 @@ section {
 }
 
 .project-thumbnails {
-  display: grid;
-  grid-template-columns: repeat(4, minmax(0, 1fr));
+  display: flex;
+  justify-content: center;
   gap: 12px;
 }
 
 .project-thumbnail {
-  display: flex;
-  flex-direction: column;
+  flex: 0 1 calc((100% - 36px) / 4);
   min-width: 0;
   overflow: hidden;
   padding: 8px;
