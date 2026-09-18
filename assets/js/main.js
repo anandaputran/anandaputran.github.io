@@ -82,6 +82,7 @@ const projectTitle = document.querySelector("#projectTitle");
 const projectFlow = document.querySelector("#projectFlow");
 const projectDescription = document.querySelector("#projectDescription");
 const projectTech = document.querySelector("#projectTech");
+const projectActions = document.querySelector(".project-actions");
 const projectAction = document.querySelector("#projectAction");
 const projectActionLabel = document.querySelector("#projectActionLabel");
 const projectThumbnails = document.querySelector("#projectThumbnails");
