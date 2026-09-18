@@ -693,6 +693,51 @@ section {
   color: #ffffff;
 }
 
+/* ==== Project Pagination ==== */
+.project-pagination {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 12px;
+  margin-top: 20px;
+}
+
+.project-page-button {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 36px;
+  height: 36px;
+  padding: 0;
+  border: 1px solid #292929;
+  border-radius: 8px;
+  background: #101010;
+  color: #d0d0d0;
+  font: inherit;
+  cursor: pointer;
+  transition: border-color 0.2s ease, background 0.2s ease, color 0.2s ease;
+}
+
+.project-page-button:hover:not(:disabled) {
+  border-color: #3a3a3a;
+  background: #161616;
+  color: #ffffff;
+}
+
+.project-page-button:disabled {
+  color: #555555;
+  cursor: default;
+  opacity: 0.5;
+}
+
+.project-page-status {
+  min-width: 42px;
+  color: #8f8f8f;
+  font-size: 0.78rem;
+  font-weight: 500;
+  text-align: center;
+}
+
 /* ===== Skills ===== */
 
 .skills {
