@@ -68,4 +68,33 @@ const projects = [
       url: "https://anandaputran.github.io/nawng/",
     },
   },
+
+  {
+    id: "katga",
+    number: "03",
+
+    category: {
+      en: "Educational K3 Web-Based Game",
+      id: "Permainan Edukasi K3 Berbasis Web",
+    },
+
+    title: "KATGA",
+
+    flow: {
+      en: "K3 Education → Daily Word Challenge → Scoring → Leaderboard",
+      id: "Edukasi K3 → Tantangan Kata Harian → Skor → Leaderboard",
+    },
+
+    description: {
+      en: "Developed a web-based educational word guessing game based on an internal company requirement to support K3 learning within the HSSE environment. The game combines daily word challenges, scoring, and leaderboard features to deliver a more interactive approach to safety education.",
+      id: "Mengembangkan game edukasi tebak kata berbasis web berdasarkan requirement internal perusahaan untuk mendukung pembelajaran K3 di lingkungan HSSE. Game ini menggabungkan tantangan kata harian, sistem skor, dan leaderboard sebagai pendekatan yang lebih interaktif untuk edukasi keselamatan kerja.",
+    },
+
+    image: "assets/img/projects/katga.webp",
+    imageAlt: "KATGA internal K3 educational web game mockup",
+
+    tech: ["HTML", "CSS", "JavaScript"],
+
+    action: null,
+  },
 ];
