@@ -68,4 +68,109 @@ const projects = [
       url: "https://anandaputran.github.io/nawng/",
     },
   },
+
+  {
+    id: "nawng-company-profile",
+    number: "02",
+
+    category: {
+      en: "Company Profile Website",
+      id: "Website Company Profile",
+    },
+
+    title: "Nawng Company Profile",
+
+    flow: {
+      en: "Responsive Company Profile Website",
+      id: "Website Company Profile Responsif",
+    },
+
+    description: {
+      en: "Developed a responsive company profile website for Nawng Indonesia to present its brand, services, and digital presence through a professional web experience.",
+      id: "Mengembangkan website company profile responsif untuk Nawng Indonesia guna menampilkan brand, layanan, dan kehadiran digitalnya melalui pengalaman web yang profesional.",
+    },
+
+    image: "assets/img/projects/nawng.webp",
+    imageAlt: "Nawng Company Profile responsive website mockup",
+
+    tech: ["Bootstrap", "HTML", "CSS", "JavaScript", "PHP", "PHPMailer"],
+
+    action: {
+      label: {
+        en: "Live View",
+        id: "Lihat Website",
+      },
+      url: "https://anandaputran.github.io/nawng/",
+    },
+  },
+
+  {
+    id: "nawng-company-profile",
+    number: "02",
+
+    category: {
+      en: "Company Profile Website",
+      id: "Website Company Profile",
+    },
+
+    title: "Nawng Company Profile",
+
+    flow: {
+      en: "Responsive Company Profile Website",
+      id: "Website Company Profile Responsif",
+    },
+
+    description: {
+      en: "Developed a responsive company profile website for Nawng Indonesia to present its brand, services, and digital presence through a professional web experience.",
+      id: "Mengembangkan website company profile responsif untuk Nawng Indonesia guna menampilkan brand, layanan, dan kehadiran digitalnya melalui pengalaman web yang profesional.",
+    },
+
+    image: "assets/img/projects/nawng.webp",
+    imageAlt: "Nawng Company Profile responsive website mockup",
+
+    tech: ["Bootstrap", "HTML", "CSS", "JavaScript", "PHP", "PHPMailer"],
+
+    action: {
+      label: {
+        en: "Live View",
+        id: "Lihat Website",
+      },
+      url: "https://anandaputran.github.io/nawng/",
+    },
+  },
+
+  {
+    id: "nawng-company-profile",
+    number: "02",
+
+    category: {
+      en: "Company Profile Website",
+      id: "Website Company Profile",
+    },
+
+    title: "Nawng Company Profile",
+
+    flow: {
+      en: "Responsive Company Profile Website",
+      id: "Website Company Profile Responsif",
+    },
+
+    description: {
+      en: "Developed a responsive company profile website for Nawng Indonesia to present its brand, services, and digital presence through a professional web experience.",
+      id: "Mengembangkan website company profile responsif untuk Nawng Indonesia guna menampilkan brand, layanan, dan kehadiran digitalnya melalui pengalaman web yang profesional.",
+    },
+
+    image: "assets/img/projects/nawng.webp",
+    imageAlt: "Nawng Company Profile responsive website mockup",
+
+    tech: ["Bootstrap", "HTML", "CSS", "JavaScript", "PHP", "PHPMailer"],
+
+    action: {
+      label: {
+        en: "Live View",
+        id: "Lihat Website",
+      },
+      url: "https://anandaputran.github.io/nawng/",
+    },
+  },
 ];
