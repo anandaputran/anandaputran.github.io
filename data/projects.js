@@ -119,7 +119,7 @@ const projects = [
       id: "Mengembangkan website profil komunitas responsif untuk Sangkar Semut, sebuah komunitas di Depok yang bergerak dalam kegiatan seni, literasi, sosial, dan pengembangan generasi muda. Website ini dibuat sebagai project sosial untuk menyusun dan menyajikan identitas, kegiatan, serta informasi komunitas dalam format digital yang jelas dan mudah diakses.",
     },
 
-    image: "assets/img/projects/sangkar-semut.webp",
+    image: "assets/img/projects/ss.webp",
     imageAlt: "Sangkar Semut community profile website mockup",
 
     tech: ["HTML", "CSS", "JavaScript"],
