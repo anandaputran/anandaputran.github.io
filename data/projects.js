@@ -97,4 +97,39 @@ const projects = [
 
     action: null,
   },
+
+  {
+    id: "sangkar-semut",
+    number: "04",
+
+    category: {
+      en: "Community Profile Website",
+      id: "Website Profil Komunitas",
+    },
+
+    title: "Sangkar Semut",
+
+    flow: {
+      en: "Community Profile → Programs → Activities → Information",
+      id: "Profil Komunitas → Program → Kegiatan → Informasi",
+    },
+
+    description: {
+      en: "Developed a responsive community profile website for Sangkar Semut, a community in Depok focused on art, literacy, social activities, and youth development. The website was created as a social project to organize and present the community's identity, activities, and information in a clear and accessible digital format.",
+      id: "Mengembangkan website profil komunitas responsif untuk Sangkar Semut, sebuah komunitas di Depok yang bergerak dalam kegiatan seni, literasi, sosial, dan pengembangan generasi muda. Website ini dibuat sebagai project sosial untuk menyusun dan menyajikan identitas, kegiatan, serta informasi komunitas dalam format digital yang jelas dan mudah diakses.",
+    },
+
+    image: "assets/img/projects/sangkar-semut.webp",
+    imageAlt: "Sangkar Semut community profile website mockup",
+
+    tech: ["HTML", "CSS", "JavaScript"],
+
+    action: {
+      label: {
+        en: "View Live Website",
+        id: "Lihat Website",
+      },
+      url: "https://anandaputran.github.io/sangkarsemut-depok/",
+    },
+  },
 ];
